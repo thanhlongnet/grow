@@ -9,6 +9,8 @@ return {
     ["Mode Plant"] = "Auto", -- "Custom"
     ["Seed"] = { -- Seed Plant Custom
 	["Carrot"] = 44,
+	["Strawberry"] = 44,
+	["Blueberry"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
         ["Bell Pepper"] = 44,
