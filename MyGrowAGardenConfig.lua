@@ -23,7 +23,8 @@ return {
         ["Kiwi"] = 44,
 	["Elephant Ears"] = 44,
 	["Cantaloupe"] = 44,
-	["Rosy Delight"] = 44
+	["Rosy Delight"] = 44,
+	["Lilac"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
