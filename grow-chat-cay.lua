@@ -8,9 +8,6 @@ return {
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Mode Plant"] = "Auto", -- "Custom"
     ["Seed"] = { -- Seed Plant Custom
-	["Carrot"] = 44,
-	["Strawberry"] = 44,
-	["Blueberry"] = 44,
         ["Loquat"] = 44,
         ["Feijoa"] = 44,
         ["Pitcher Plant"] = 44,
