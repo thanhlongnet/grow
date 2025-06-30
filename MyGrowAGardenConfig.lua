@@ -55,6 +55,11 @@ return {
             ["Buy"] = true,
             ["Place"] = false,
             ["Priority"] = 7
+        },
+        ["Rare Summer Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 8
         }
     },
     ["SummerEvent"] = {
