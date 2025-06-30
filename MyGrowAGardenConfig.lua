@@ -21,7 +21,8 @@ return {
         ["Prickly Pear"] = 44,
 	["Pitcher Plant"] = 44,
         ["Kiwi"] = 44,
-	["Elephant Ears"] = 44
+	["Elephant Ears"] = 44,
+	["Cantaloupe"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
