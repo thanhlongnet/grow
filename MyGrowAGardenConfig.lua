@@ -24,7 +24,8 @@ return {
 	["Elephant Ears"] = 44,
 	["Cantaloupe"] = 44,
 	["Rosy Delight"] = 44,
-	["Lilac"] = 44
+	["Lilac"] = 44,
+	["Pink Lily"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
