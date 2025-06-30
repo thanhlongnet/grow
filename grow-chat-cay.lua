@@ -75,7 +75,7 @@ return {
                         "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Trees"] = {"Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Pineapple", "Kiwi", "Banana", "Bell Pepper", "Prickly Pear", "Corn", "Orange Tulip"}
+        ["Trees"] = {"Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Pineapple", "Kiwi", "Banana", "Bell Pepper", "Prickly Pear", "Corn", "Orange Tulip", "Cactus", "Dragon Fruit"}
     },
     ["Url"] = "", -- Webhook 
 
