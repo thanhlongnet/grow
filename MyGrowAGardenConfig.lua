@@ -31,6 +31,11 @@ return {
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
+	["Mythical Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,Add commentMore actions
+            ["Priority"] = 5
+        },
         ["Oasis Egg"] = {
             ["Place"] = true,
             ["Priority"] = 6
@@ -66,7 +71,7 @@ return {
         ["Common Summer Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 9
         }
     },
     ["SummerEvent"] = {
