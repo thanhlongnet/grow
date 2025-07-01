@@ -26,9 +26,11 @@ return {
 	["Rosy Delight"] = 44,
 	["Lilac"] = 44,
 	["Pink Lily"] = 44,
-	["Purple Dahlia"] = 44
+	["Purple Dahlia"] = 44,
+	["Sunflower"] = 44,
+	["Elephant Ears"] = 44
     },
-    ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
+    ["Keep Seed"] = {"Dragon Pepper", "Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
         ["Oasis Egg"] = {
