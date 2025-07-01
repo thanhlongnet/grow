@@ -67,11 +67,6 @@ return {
             ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 8
-        },
-        ["Common Summer Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 9
         }
     },
     ["SummerEvent"] = {
