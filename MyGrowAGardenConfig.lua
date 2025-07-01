@@ -33,7 +33,7 @@ return {
     ["Egg"] = {
 	["Mythical Egg"] = {
             ["Buy"] = true,
-            ["Place"] = true,Add commentMore actions
+            ["Place"] = true,
             ["Priority"] = 5
         },
         ["Oasis Egg"] = {
