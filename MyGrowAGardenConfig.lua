@@ -72,7 +72,7 @@ return {
     ["SummerEvent"] = {
         ["Traveler's Fruit"] = false,
         ["Summer Seed Pack"] = false,
-        ["Hamster"] = true,
+        ["Hamster"] = false,
         ["Oasis Egg"] = true,
         ["Delphinium"] = false,
         ["Lily of the Valley"] = false
