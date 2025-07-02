@@ -1,5 +1,5 @@
 return {
-    ["Hide UI"] = false,
+    ["Hide UI"] = true,
     ["Hide Notify"] = true, 
     ["Buy Egg"] = {
         ["Select Egg"] = {
@@ -106,6 +106,6 @@ return {
         ["Recipe"] = "Anti Bee Egg"
     },
     ["KeyConfig"] = "Bananaconfig-X0CRNAU6",   
-    ["Enable Screen Black"] = false,
+    ["Enable Screen Black"] = true,
     ["Screen Black FPS Cap"] = 3,
 }
