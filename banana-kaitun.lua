@@ -25,7 +25,7 @@ return {
         ["Enabled"] = true,
         ["Auto Delete Seed Low Price"] = true,
         ["Slot"] = 400,
-        ["Name Seed Delete"] = {"Strawberry", "Blueberry", "Corn", "Cacao", "Tomato", "Orange Tulip", "Carrot", "Beanstalk", "Apple", "Banana", "Succulent", "Rose"
+        ["Name Seed Delete"] = {"Strawberry", "Blueberry", "Corn", "Cacao", "Tomato", "Orange Tulip", "Carrot", "Beanstalk", "Apple", "Banana", "Succulent", "Rose", "Glowshroom"
         }
     },
     ["Dont collect during weather events"] = {
