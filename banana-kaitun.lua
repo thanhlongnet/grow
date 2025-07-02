@@ -1,5 +1,5 @@
 return {
-    ["Hide UI"] = true,
+    ["Hide UI"] = false,
     ["Hide Notify"] = true, 
     ["Buy Egg"] = {
         ["Select Egg"] = {
