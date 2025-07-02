@@ -86,7 +86,7 @@ return {
     ["Summer Event"] = {
         ["Auto Teleport Summer"] = {
             ["Enabled"] = true,
-            ["DelayMinute"] = 1
+            ["DelayMinute"] = 2
      },
         ["SubmitPlant"] = true,
         ["Delay"] = 1
