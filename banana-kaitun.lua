@@ -89,7 +89,7 @@ return {
             ["DelayMinute"] = 1
      },
         ["SubmitPlant"] = true,
-        ["Delay"] = 2
+        ["Delay"] = 1
     },
      ["Summer Event Shop"] = {
         ["Enabled"] = true,
