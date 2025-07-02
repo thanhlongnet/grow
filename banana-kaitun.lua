@@ -1,11 +1,11 @@
 return {
-    ["Hide UI"] = false,
+    ["Hide UI"] = true,
     ["Hide Notify"] = true, 
     ["Buy Egg"] = {
         ["Select Egg"] = {
             ["Bee Egg"] = true,
             ["Bug Egg"] = true,
-            ["Mythical Egg"] = true,
+            ["Mythical Egg"] = false,
             ["Legendary Egg"] = true,
             ["Paradise Egg"] = true,
             ["Rare Summer Egg"] = true,
@@ -25,12 +25,11 @@ return {
         ["Enabled"] = false,
         ["Auto Delete Seed Low Price"] = true,
         ["Slot"] = 500,
-        ["Name Seed Delete"] = {
-            "",
+        ["Name Seed Delete"] = {"Strawberry", "Blueberry", "Corn", "Tomato", "Orange Tulip", "Carrot",
         }
     },
     ["Dont collect during weather events"] = {
-        ["Enabled"] = false,
+        ["Enabled"] = true,
         ["Weather"] = {
             ["Rain"] = false,
             ["Frost"] = false,
@@ -79,7 +78,7 @@ return {
     },
     ["FPS Lock"] = {
         ["Enabled"] = true,
-        ["Value"] = 60
+        ["Value"] = 3
     },
     ["Auto Place Pet Egg"] = {
         ["Enabled"] = true  
