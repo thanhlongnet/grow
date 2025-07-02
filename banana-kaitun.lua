@@ -105,7 +105,7 @@ return {
         ["Craft Ready"] = true,
         ["Recipe"] = "Anti Bee Egg"
     },
-    ["KeyConfig"] = "Bananaconfig-X0CRNAU6",   
+    ["KeyConfig"] = "Bananaconfig-M93EVX2L",   
     ["Enable Screen Black"] = true,
     ["Screen Black FPS Cap"] = 3,
 }
