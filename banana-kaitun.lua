@@ -13,7 +13,7 @@ return {
         }
     },
     ["Delete Pet"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Pet Dont Delete"] = {"Dragon Fly", "Praying Mantis", "Queen Bee", "Mimic Octopus", "Hyacinth Macaw", "Raccoon", "Blood Owl", "Fennec", "Moon Cat", "Fennec Fox", "Kiwi", "Disco Bee", "Butterfly", "Chicken Zombie"}
     },
     
