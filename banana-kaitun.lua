@@ -6,7 +6,7 @@ return {
             ["Bee Egg"] = true,
             ["Bug Egg"] = true,
             ["Mythical Egg"] = false,
-            ["Legendary Egg"] = true,
+            ["Legendary Egg"] = false,
             ["Paradise Egg"] = true,
             ["Rare Summer Egg"] = true,
             ["Common Summer Egg"] = true,
