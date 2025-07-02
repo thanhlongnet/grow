@@ -31,9 +31,9 @@ return {
     ["Dont collect during weather events"] = {
         ["Enabled"] = true,
         ["Weather"] = {
-            ["Rain"] = false,
-            ["Frost"] = false,
-            ["Thunderstorm"] = false,
+            ["Rain"] = true,
+            ["Frost"] = true,
+            ["Thunderstorm"] = true,
         }
     },
     ["Gear"]  = {
