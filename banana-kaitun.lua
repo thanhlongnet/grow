@@ -106,6 +106,6 @@ return {
         ["Recipe"] = "Anti Bee Egg"
     },
     ["KeyConfig"] = "Bananaconfig-X0CRNAU6",   
-    ["Enable Screen Black"] = true,
+    ["Enable Screen Black"] = false,
     ["Screen Black FPS Cap"] = 3,
 }
