@@ -14,7 +14,7 @@ return {
     },
     ["Delete Pet"] = {
         ["Enabled"] = false,
-        ["Pet Dont Delete"] = {"Dragon Fly", "Praying Mantis", "Queen Bee", "Mimic Octopus", "Hyacinth Macaw", "Raccoon", "Blood Owl", "Fennec", "Moon Cat", "Fennec Fox", "Kiwi", "Disco Bee", "Butterfly", "Chicken Zombie"}
+        ["Pet Dont Delete"] = {"Dragon Fly", "Praying Mantis", "Queen Bee", "Mimic Octopus", "Hyacinth Macaw", "Raccoon", "Blood Owl", "Fennec", "Moon Cat", "Fennec Fox", "Kiwi", "Disco Bee", "Butterfly", "Chicken Zombie", "Starfish", "Toucan", "Moth"}
     },
     
     ["dont Buy Seed low Price"] = {
