@@ -107,5 +107,5 @@ return {
     },
     ["KeyConfig"] = "Bananaconfig-X0CRNAU6",   
     ["Enable Screen Black"] = true,
-    ["Screen Black FPS Cap"] = 30,
+    ["Screen Black FPS Cap"] = 3,
 }
