@@ -122,6 +122,7 @@ return {
 		    ["Ostrich"] = true,
 		    ["Peacock"] = true,
 		    ["Scarlet Macaw"] = true
+		},
         ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
