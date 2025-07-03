@@ -11,7 +11,6 @@ return {
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
         ["Tomato"] = 44,
-        ["Loquat"] = 44,
         ["Carrot"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
@@ -96,7 +95,6 @@ return {
         ["Name Pet Equip"] = {
 		    ["Queen Bee"] = true,
 		    ["Night Owl"] = true,
-		    ["Queen Bee"] = true,
 		    ["Wasp"] = true,
 		    ["Tarantula Hawk"] = true,
 		    ["Petal Bee"] = true,
