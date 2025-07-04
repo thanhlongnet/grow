@@ -89,7 +89,7 @@ return {
         	["Firework Flower"] = true,
         	["Firework"] = true,
         	["Bald Eagle"] = true,
-        	["Liberty Lily"] = false
+        	["Liberty Lily"] = true
 
     },
     ["Url"] = "", -- Webhook 
