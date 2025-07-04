@@ -85,12 +85,11 @@ return {
         ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"},
 	["Destroy Untill"] = 450
     },
-	["4th July Event"] = {
-        	["Firework Flower"] = true,
-        	["Firework"] = true,
-        	["Bald Eagle"] = true,
-        	["Liberty Lily"] = true
-
+    ["4th July Event"] = {
+       ["Firework Flower"] = true,
+       ["Firework"] = true,
+       ["Bald Eagle"] = true,
+       ["Liberty Lily"] = true
     },
     ["Url"] = "", -- Webhook 
 
