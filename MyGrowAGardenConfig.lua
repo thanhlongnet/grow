@@ -87,7 +87,7 @@ return {
     },
     ["4th July Event"] = {
        ["Firework Flower"] = true,
-       ["Firework"] = true,
+       ["Firework"] = false,
        ["Bald Eagle"] = true,
        ["Liberty Lily"] = true
     },
