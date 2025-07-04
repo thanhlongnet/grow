@@ -82,7 +82,15 @@ return {
         ["Auto Destroy when have money"] = 30000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Auto", --"Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Cacao", "Tomato", "Orange Tulip", "Carrot", "Apple", "Pear", "Banana", "Succulent", "Rose", "Glowshroom", "Lavender", "Cactus", "Dragon Fruit", "Mango", "Bell Pepper", "Moon Melon", "Coconut", "Cauliflower", "Watermelon", "Rafflesia"},
-        ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"}
+        ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"},
+	["Destroy Untill"] = 450
+    },
+	["4th July Event"] = {
+        	["Firework Flower"] = true,
+        	["Firework"] = true,
+        	["Bald Eagle"] = true,
+        	["Liberty Lily"] = false
+
     },
     ["Url"] = "", -- Webhook 
 
