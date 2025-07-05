@@ -106,7 +106,7 @@ return {
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
 		    ["Queen Bee"] = true,
-			["Dog"] = true,
+		    ["Dog"] = true,
 		    ["Night Owl"] = true,
 		    ["Wasp"] = true,
 		    ["Tarantula Hawk"] = true,
