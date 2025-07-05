@@ -29,15 +29,15 @@ return {
         ["Mythical Egg"] = {
             ["Buy"] = false,
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 1
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 6
+            ["Priority"] = 2
         },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 1
+            ["Priority"] = 3
         },
         ["Night Egg"] = {
             ["Place"] = true,
@@ -46,23 +46,28 @@ return {
         ["Bug Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 5
         },
         ["Paradise Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 3
+            ["Priority"] = 6
         },
         ["Bee Egg"] = {
             ["Buy"] = true,
             ["Place"] = false,
-            ["Priority"] = 3
+            ["Priority"] = 7
         },
         ["Common Egg"] = {
             ["Buy"] = true,
-            ["Place"] = false,
-            ["Priority"] = 3
-        }		
+            ["Place"] = true,
+            ["Priority"] = 8
+        },
+	["Dinosaur Egg"] = {
+            ["Buy"] = false,
+            ["Place"] = true,
+            ["Priority"] = 9
+        }
     },
     ["SummerEvent"] = {
         ["Traveler's Fruit"] = false,
@@ -89,6 +94,14 @@ return {
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Cacao", "Tomato", "Orange Tulip", "Carrot", "Apple", "Pear", "Banana", "Succulent", "Rose", "Glowshroom", "Lavender", "Cactus", "Dragon Fruit", "Mango", "Bell Pepper", "Moon Melon", "Coconut", "Cauliflower", "Watermelon", "Rafflesia"},
         ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"},
 	["Destroy Untill"] = 450
+    },
+    ["Dino Event"] = {
+        ["Auto Claim Quest"] = true,
+        ["Auto Restart Quest"] = true,
+        ["Auto Trade Eggs"] = true,
+        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
+                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Hamster", "Golden Lab"},
     },
     ["4th July Event"] = {
        ["Firework Flower"] = true,
@@ -144,7 +157,7 @@ return {
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Dog"},
-		["Dont Sell Pet If Weight > x"] = 10
+        ["Dont Sell Pet If Weight > x"] = 10
     },
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = false,
