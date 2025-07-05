@@ -107,6 +107,7 @@ return {
         ["Sell Pet"] = false,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
+			["Golden Lab"] = true,
 		    ["Queen Bee"] = true,
 		    ["Dog"] = true,
 		    ["Night Owl"] = true,
@@ -141,11 +142,11 @@ return {
 		["Enable"] = true,
 		["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
-                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Dog"}
+                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Dog", "Golden Lab"}
 		},
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Dog"},
+                               "Hamster", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Dog", "Golden Lab"},
         ["Dont Sell Pet If Weight > x"] = 10
     },
     ["Webhook Mode"] = {
