@@ -62,7 +62,12 @@ return {
             ["Buy"] = false,
             ["Place"] = true,
             ["Priority"] = 8
-        }
+        },
+	["Common Egg"] = {
+            ["Buy"] = true,
+            ["Place"] = true,
+            ["Priority"] = 9
+        },
     },
     ["SummerEvent"] = {
         ["Traveler's Fruit"] = false,
