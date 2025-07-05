@@ -23,7 +23,7 @@ return {
 	["Pitcher Plant"] = 44,
         ["Kiwi"] = 44,
         ["Ember Lily"] = 44,
-        ["Burning Bud"] = 44,
+        ["Burning Bud"] = 44
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
@@ -69,7 +69,7 @@ return {
             ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 9
-        },
+        }
     },
     ["SummerEvent"] = {
         ["Traveler's Fruit"] = false,
