@@ -103,12 +103,6 @@ return {
                                "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster", "Golden Lab"},
     },
-    ["4th July Event"] = {
-       ["Firework Flower"] = true,
-       ["Firework"] = false,
-       ["Bald Eagle"] = true,
-       ["Liberty Lily"] = true
-    },
     ["Url"] = "", -- Webhook 
 
     ["Boost FPS"] = true,
