@@ -57,16 +57,11 @@ return {
             ["Buy"] = true,
             ["Place"] = false,
             ["Priority"] = 7
-        },
-        ["Common Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 8
-        },
+        }
 	["Dinosaur Egg"] = {
             ["Buy"] = false,
             ["Place"] = true,
-            ["Priority"] = 9
+            ["Priority"] = 8
         }
     },
     ["SummerEvent"] = {
