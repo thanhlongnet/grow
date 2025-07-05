@@ -112,7 +112,6 @@ return {
         ["Sell Pet"] = false,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-			["Golden Lab"] = true,
 		    ["Queen Bee"] = true,
 		    ["Dog"] = true,
 		    ["Night Owl"] = true,
