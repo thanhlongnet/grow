@@ -94,7 +94,7 @@ return {
         ["Mode Destroy"] = "Auto", --"Custom"
         ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Cacao", "Tomato", "Orange Tulip", "Carrot", "Apple", "Pear", "Banana", "Succulent", "Rose", "Glowshroom", "Lavender", "Cactus", "Dragon Fruit", "Mango", "Bell Pepper", "Moon Melon", "Coconut", "Cauliflower", "Watermelon", "Rafflesia"},
         ["Rarity Destroy Auto"] = {"Common","Uncommon","Rare"},
-	["Destroy Untill"] = 450
+	["Destroy Untill"] = 150
     },
     ["Dino Event"] = {
         ["Auto Claim Quest"] = true,
