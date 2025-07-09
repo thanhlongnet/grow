@@ -63,7 +63,7 @@ return {
 	["Dinosaur Egg"] = {
             ["Place"] = true,
             ["Priority"] = 8
-        }
+        },
 	-- ["Common Egg"] = {
         --    ["Buy"] = true,
         --    ["Place"] = true,
