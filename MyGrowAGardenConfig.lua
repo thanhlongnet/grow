@@ -83,7 +83,7 @@ return {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
+                       "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Auto", -- "Custom"
@@ -96,7 +96,7 @@ return {
         ["Auto Restart Quest"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Mimic Octopus", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster", "T-Rex"},
     },
     ["Url"] = "", -- Webhook 
