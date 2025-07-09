@@ -96,7 +96,7 @@ return {
         ["Auto Restart Quest"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster", "T-Rex"},
     },
     ["Url"] = "", -- Webhook 
@@ -117,11 +117,11 @@ return {
         ["Upgrade Slot Egg"] = {
 		["Enable"] = true,
 		["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox",
+                                                    "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"}
 		},
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
                                "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish"},
         ["Dont Sell Pet If Weight > x"] = 10
     },
