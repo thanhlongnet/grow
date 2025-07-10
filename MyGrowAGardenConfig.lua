@@ -117,6 +117,8 @@ return {
 		    ["Tarantula Hawk"] = true,
 		    ["Petal Bee"] = true,
 		    ["Honey Bee"] = true,
+		    ["Dog"] = true,
+		    ["Bunny"] = true,
 		},
         ["Max Slot Pet To Sell"] = 45, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
