@@ -63,6 +63,11 @@ return {
         ["Dinosaur Egg"] = {
             ["Place"] = true,
             ["Priority"] = 1
+        },
+        ["Common Egg"] = {
+            ["Place"] = true,
+            ["Buy"] = true,
+            ["Priority"] = 7
         }
     },
     ["SummerEvent"] = {
@@ -105,7 +110,7 @@ return {
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
-        ["Sell Pet"] = false,
+        ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
 		    ["Wasp"] = true,
