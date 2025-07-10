@@ -102,7 +102,7 @@ return {
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex"},
+                               "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
     },
     ["Url"] = "", -- Webhook 
 
