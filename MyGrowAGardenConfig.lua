@@ -137,12 +137,6 @@ return {
         ["Enable Send Pet Weight"] = false,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
     },
-    ["Rejoin Mode"] = {
-        ["Auto Rejoin When Error Module Egg"] = true,
-        ["Auto rejoin on script update"] = true,
-        ["Enable Rejoin After X Time"] = false,
-        ["Rejoin After X Time"] = 60 -- Minutes
-    },
     ["Limit Tree"] = 250,
     ["White Screen"] = false
 }
