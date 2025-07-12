@@ -31,7 +31,7 @@ return {
         ["Mythical Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 9
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
@@ -61,6 +61,11 @@ return {
             ["Priority"] = 8
         },
         ["Dinosaur Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 2
+        },
+        ["Common Egg"] = {
+            ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 1
         }
