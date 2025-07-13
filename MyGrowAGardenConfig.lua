@@ -150,6 +150,6 @@ return {
         ["Enable Rejoin After X Time"] = false,
         ["Rejoin After X Time"] = 60 -- Minutes
     },
-    ["Limit Tree"] = 250,
+    ["Limit Tree"] = 400,
     ["White Screen"] = false
 }
