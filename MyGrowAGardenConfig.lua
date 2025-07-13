@@ -98,7 +98,7 @@ return {
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Custom", -- "Custom"
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil", "Watermelon", "Pumpkin", "Apple", "Bamboo", "Coconut", "Cactus", "Dragon Fruit"},
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil", "Watermelon", "Pumpkin", "Apple", "Bamboo", "Coconut", "Cactus", "Dragon Fruit", "Mango"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
     },
