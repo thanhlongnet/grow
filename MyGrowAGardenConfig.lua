@@ -69,6 +69,10 @@ return {
             ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 2
+        },
+        ["Primal Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 2
         }
     },
     ["SummerEvent"] = {
