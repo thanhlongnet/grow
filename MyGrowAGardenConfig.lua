@@ -36,43 +36,43 @@ return {
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 7
+            ["Priority"] = 9
         },
         ["Anti Bee Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 6
+            ["Priority"] = 8
         },
         ["Night Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 5
+            ["Priority"] = 7
         },
         ["Bug Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 3
+            ["Priority"] = 4
         },
         ["Paradise Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 4
+            ["Priority"] = 5
         },
         ["Bee Egg"] = {
             ["Buy"] = true,
             ["Place"] = false,
-            ["Priority"] = 8
+            ["Priority"] = 6
         },
         ["Dinosaur Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 1
+            ["Priority"] = 2
         },
         ["Common Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 3
         },
         ["Primal Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 1
         }
     },
     ["SummerEvent"] = {
