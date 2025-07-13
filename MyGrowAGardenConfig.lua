@@ -24,7 +24,8 @@ return {
 	["Pitcher Plant"] = 44,
         ["Kiwi"] = 44,
         ["Ember Lily"] = 44,
-        ["Burning Bud"] = 44
+        ["Burning Bud"] = 44,
+	["Paradise Petal"] = 44,
     },
     ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
     ["FPS"] = 3,
