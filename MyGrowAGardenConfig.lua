@@ -2,7 +2,8 @@ return {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
+        ["Anti Bee Egg"] = true,
+        ["Ancient Seed Pack"] = true
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
@@ -99,6 +100,7 @@ return {
     ["Dino Event"] = {
         ["Auto Claim Quest"] = true,
         ["Auto Restart Quest"] = true,
+        ["Auto Submit"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
                                "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
@@ -136,6 +138,12 @@ return {
     ["Webhook Mode"] = {
         ["Enable Send Pet Weight"] = false,
         ["Weight"] = 10 -- if Weight >= 10 they will send wh
+    },
+    ["Rejoin Mode"] = {
+        ["Auto Rejoin When Error Module Egg"] = true,
+        ["Auto rejoin on script update"] = true,
+        ["Enable Rejoin After X Time"] = false,
+        ["Rejoin After X Time"] = 60 -- Minutes
     },
     ["Limit Tree"] = 250,
     ["White Screen"] = false
