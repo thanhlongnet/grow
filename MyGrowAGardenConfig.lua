@@ -62,12 +62,12 @@ return {
         },
         ["Dinosaur Egg"] = {
             ["Place"] = true,
-            ["Priority"] = 2
+            ["Priority"] = 1
         },
         ["Common Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 1
+            ["Priority"] = 2
         }
     },
     ["SummerEvent"] = {
