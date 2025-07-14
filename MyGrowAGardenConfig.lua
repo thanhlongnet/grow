@@ -25,7 +25,7 @@ return {
         ["Prickly Pear"] = 44,
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
-	},
+    },
     ["Keep Seed"] = {"Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
@@ -85,7 +85,7 @@ return {
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
+                      "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
         ["Mode Destroy"] = "Auto", -- "Custom"
@@ -99,8 +99,8 @@ return {
         ["Auto Submit"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
+                             "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                             "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
     },
     ["Url"] = "", -- Webhook 
 
@@ -111,24 +111,24 @@ return {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-		    ["Wasp"] = true,
-		    ["Tarantula Hawk"] = true,
-		    ["Petal Bee"] = true,
-		    ["Honey Bee"] = true,
-		    ["Dog"] = true,
-		    ["Bunny"] = true,
-		    ["Raptor"] = true,
-		},
+            ["Wasp"] = true,
+            ["Tarantula Hawk"] = true,
+            ["Petal Bee"] = true,
+            ["Honey Bee"] = true,
+            ["Dog"] = true,
+            ["Bunny"] = true,
+            ["Raptor"] = true,
+        },
         ["Max Slot Pet To Sell"] = 45, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
-		["Enable"] = true,
-		["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
+            ["Enable"] = true,
+            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
                                                     "Butterfly", "Mimic Octopus", "Fennec Fox",
                                                     "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"}
-		},
+        },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Brontosaurus", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"},
+                              "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                              "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Brontosaurus", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"},
         ["Dont Sell Pet If Weight > x"] = 10
     },
     ["Webhook Mode"] = {
