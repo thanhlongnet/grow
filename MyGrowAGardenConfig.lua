@@ -1,5 +1,5 @@
 return {
-["Time To Sell"] = 35, -- Seconds
+    ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true,
@@ -31,7 +31,7 @@ return {
         ["Mythical Egg"] = {
             ["Buy"] = false,
             ["Place"] = true,
-            ["Priority"] = 9
+            ["Priority"] = 10
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
@@ -48,7 +48,7 @@ return {
         ["Bug Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 4
+            ["Priority"] = 6
         },
         ["Paradise Egg"] = {
             ["Buy"] = true,
@@ -58,21 +58,21 @@ return {
         ["Bee Egg"] = {
             ["Buy"] = true,
             ["Place"] = false,
-            ["Priority"] = 6
+            ["Priority"] = 4
         },
         ["Dinosaur Egg"] = {
             ["Place"] = true,
             ["Priority"] = 3
+        },
+        ["Primal Egg"] = {
+            ["Place"] = true,
+            ["Priority"] = 1
         },
         ["Common Egg"] = {
             ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 2
         },
-        ["Primal Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
-        }
     },
 
     ["Sprinkler"] = {
@@ -102,9 +102,10 @@ return {
         ["Auto Restart Quest"] = true,
         ["Auto Submit"] = true,
         ["Auto Trade Eggs"] = true,
-        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee"},
+        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
+                              "Fennec Fox", "Kiwi", "Blood Kiwi", "Rooster", "Chicken", "T-Rex", "Hamster",
+                              "Golden Lab", "Hyacinth Macaw", "Spinosaurus", "Ankylosaurus"}
+
     },
     ["Note"] = "Cyndral Hub",
     ["Pet Mode"] = {
@@ -118,8 +119,8 @@ return {
 		    ["Dog"] = true,
 		    ["Bunny"] = true,
 		    ["Raptor"] = true,
-		},
-        ["Max Slot Pet To Sell"] = 45, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
+	},
+        ["Max Slot Pet To Sell"] = 1, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
             ["Enable"] = true,
             ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
@@ -128,8 +129,8 @@ return {
                                                     "Ankylosaurus"}
         },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Ankylosaurus", "Iguanodon", "Spinosaurus"},
+                               "Mimic Octopus", "Meerkat", "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+                               "Hamster", "Golden Lab", "T-Rex", "Spinosaurus", "Ankylosaurus", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish"},
         ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
     },
     ["Webhook Mode"] = {
