@@ -1,4 +1,5 @@
-    ["Time To Sell"] = 35, -- Seconds
+return {
+["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
         ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true,
