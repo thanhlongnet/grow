@@ -7,7 +7,7 @@ return {
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
-    ["Mode Plant"] = "Custom", -- "Custom"
+    ["Mode Plant"] = "Auto", -- "Custom"
     ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
