@@ -25,6 +25,7 @@ return {
         ["Prickly Pear"] = 44,
         ["Watermelon"] = 44,
         ["Kiwi"] = 44
+	},
     ["Keep Seed"] = {"Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
