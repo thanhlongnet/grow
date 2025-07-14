@@ -31,7 +31,7 @@ return {
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
-            ["Buy"] = true,
+            ["Buy"] = false,
             ["Place"] = true,
             ["Priority"] = 9
         },
