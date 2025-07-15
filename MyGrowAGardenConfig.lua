@@ -76,12 +76,12 @@ return {
         }
     },
     ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
-        ["Basic Sprinkler"] = true,
-        ["Advanced Sprinkler"] = true,
-        ["Master Sprinkler"] = true,
-        ["Godly Sprinkler"] = true
+        ["Place Sprinkler"] = false,
+        ["Buy Sprinkler"] = false,
+        ["Basic Sprinkler"] = false,
+        ["Advanced Sprinkler"] = false,
+        ["Master Sprinkler"] = false,
+        ["Godly Sprinkler"] = false
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
