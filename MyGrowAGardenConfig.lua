@@ -66,7 +66,7 @@ return {
             ["Priority"] = 3
         },
         ["Common Egg"] = {
-            ["Buy"] = true,
+            ["Buy"] = false,
             ["Place"] = true,
             ["Priority"] = 2
         },
