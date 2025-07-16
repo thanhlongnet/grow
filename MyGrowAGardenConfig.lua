@@ -27,7 +27,7 @@ return {
         ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Candy Blossom"},
-    ["FPS"] = 3,
+    ["FPS"] = 2,
     ["Egg"] = {
         ["Mythical Egg"] = {
             ["Buy"] = true,
