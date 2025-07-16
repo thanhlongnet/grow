@@ -1,39 +1,38 @@
 return {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
-        ["Crafters Seed Pack"] = false,
+        ["Crafters Seed Pack"] = true,
         ["Anti Bee Egg"] = true,
         ["Ancient Seed Pack"] = true
     },
     ["Dont Open Pack"] = false,
-    ["Dont Use Flower Seed Pack"] = false, -- If u Enable Crafters Seed Pack pls enable this
+    ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
     ["Mode Plant"] = "Auto", -- "Custom"
+
     ["Seed"] = { -- Seed Plant Custom
         ["Strawberry"] = 44,
         ["Blueberry"] = 44,
         ["Tomato"] = 44,
-        ["Carrot"] = 44,
         ["Loquat"] = 44,
         ["Pineapple"] = 44,
+        ["Carrot"] = 44,
         ["Bell Pepper"] = 44,
         ["Green Apple"] = 44,
         ["Feijoa"] = 44,
         ["Avocado"] = 44,
-        ["Pepper"] = 44,
-	["Cacao"] = 44,
-        ["Beanstalk"] = 44,
-        ["Ember Lily"] = 44,
         ["Sugar Apple"] = 44,
-        ["Burning Bud"] = 44,
-	["Giant Pinecone"] = 44,
+        ["Banana"] = 44,
+        ["Prickly Pear"] = 44,
+        ["Watermelon"] = 44,
+        ["Kiwi"] = 44
     },
     ["Keep Seed"] = {"Candy Blossom"},
     ["FPS"] = 3,
     ["Egg"] = {
         ["Mythical Egg"] = {
-            ["Buy"] = false,
+            ["Buy"] = true,
             ["Place"] = true,
-            ["Priority"] = 9
+            ["Priority"] = 10
         },
         ["Oasis Egg"] = {
             ["Place"] = true,
@@ -48,17 +47,17 @@ return {
             ["Priority"] = 7
         },
         ["Bug Egg"] = {
-            ["Buy"] = false,
+            ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 4
         },
         ["Paradise Egg"] = {
-            ["Buy"] = false,
+            ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 5
         },
         ["Bee Egg"] = {
-            ["Buy"] = false,
+            ["Buy"] = true,
             ["Place"] = false,
             ["Priority"] = 6
         },
@@ -67,7 +66,7 @@ return {
             ["Priority"] = 3
         },
         ["Common Egg"] = {
-            ["Buy"] = false,
+            ["Buy"] = true,
             ["Place"] = true,
             ["Priority"] = 2
         },
@@ -76,29 +75,21 @@ return {
             ["Priority"] = 1
         }
     },
-    ["SummerEvent"] = {
-        ["Traveler's Fruit"] = false,
-        ["Summer Seed Pack"] = false,
-        ["Hamster"] = false,
-        ["Oasis Egg"] = true,
-        ["Delphinium"] = false,
-        ["Lily of the Valley"] = false
-    },
     ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
-        ["Basic Sprinkler"] = true,
-        ["Advanced Sprinkler"] = true,
-        ["Master Sprinkler"] = true,
-        ["Godly Sprinkler"] = true
+        ["Place Sprinkler"] = false,
+        ["Buy Sprinkler"] = false,
+        ["Basic Sprinkler"] = false,
+        ["Advanced Sprinkler"] = false,
+        ["Master Sprinkler"] = false,
+        ["Godly Sprinkler"] = false
     },
     ["Plant Candy"] = false,
     ["PetNeedSend"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus",
-                       "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
+        "Sand Snake", "Fennec Fox", "Axolotl", "Hyacinth Macaw", "Hamster"},
     ["Destroy Mode"] = {
         ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Custom", -- "Custom"
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato", "Daffodil", "Watermelon", "Pumpkin", "Apple", "Bamboo", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Wild Carrot", "Kiwi", "Pineapple", "Prickly Pear"},
+        ["Mode Destroy"] = "Auto", -- "Custom"
+        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot", "Tomato"},
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
     },
@@ -108,11 +99,10 @@ return {
         ["Auto Submit"] = true,
         ["Auto Trade Eggs"] = true,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Brontosaurus", "Raptor", "Triceratops", "Stegosaurus", "Pterodactyl"},
+            "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+            "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
     },
-    ["Url"] = "", -- Webhook 
-
+    ["Url"] = "", -- Webhook,
     ["Boost FPS"] = true,
     ["Black Screen"] = true,
     ["Note"] = "Cyndral Hub",
@@ -120,24 +110,24 @@ return {
         ["Sell Pet"] = true,
         ["Equip Pet"] = true,
         ["Name Pet Equip"] = {
-		    ["Wasp"] = true,
-		    ["Tarantula Hawk"] = true,
-		    ["Petal Bee"] = true,
-		    ["Honey Bee"] = true,
-		    ["Dog"] = true,
-		    ["Bunny"] = true,
-		    ["Raptor"] = true,
-		},
-        ["Max Slot Pet To Sell"] = 40, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
+            ["Wasp"] = true,
+            ["Tarantula Hawk"] = true,
+            ["Petal Bee"] = true,
+            ["Honey Bee"] = true,
+            ["Dog"] = true,
+            ["Bunny"] = true,
+            ["Raptor"] = true,
+        },
+        ["Max Slot Pet To Sell"] = 45, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
         ["Upgrade Slot Egg"] = {
-		["Enable"] = true,
-		["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
-                                                    "Butterfly", "Mimic Octopus", "Fennec Fox",
-                                                    "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"}
-		},
+            ["Enable"] = true,
+            ["Black List Pet For Upgrade Slots"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee",
+                "Butterfly", "Mimic Octopus", "Fennec Fox",
+                "Axolotl", "Hyacinth Macaw", "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"}
+        },
         ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-                               "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-                               "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Brontosaurus", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"},
+            "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
+            "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Brontosaurus", "Spinosaurus", "Ankylosaurus", "Iguanodon", "Dilophosaurus"},
         ["Dont Sell Pet If Weight > x"] = 10
     },
     ["Webhook Mode"] = {
