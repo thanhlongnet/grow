@@ -115,7 +115,7 @@ return {
             ["Petal Bee"] = true,
             ["Honey Bee"] = true,
             ["Dog"] = true,
-            ["Bunny"] = true,
+            ["Dilophosaurus"] = true,
             ["Brontosaurus"] = true,
             ["Pterodactyl"] = true,
         },
