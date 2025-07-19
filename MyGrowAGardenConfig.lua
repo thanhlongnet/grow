@@ -72,6 +72,11 @@ return {
         },
         ["Primal Egg"] = {
             ["Place"] = true,
+            ["Priority"] = 2
+        },
+        ["Zen Egg"] = {
+            ["Place"] = true,
+            ["Buy"] = true,
             ["Priority"] = 1
         }
     },
