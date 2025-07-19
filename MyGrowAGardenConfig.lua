@@ -69,7 +69,7 @@ return {
             ["Priority"] = 2
         },
         ["Zen Egg"] = {
-            ["Buy"] = true,
+            ["Place"] = true,
             ["Priority"] = 1
         }
     },
