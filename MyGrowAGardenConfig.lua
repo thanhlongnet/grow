@@ -98,14 +98,12 @@ return {
         ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
         ["Destroy Untill"] = 150
     },
-    ["Dino Event"] = {
-        ["Auto Claim Quest"] = false,
-        ["Auto Restart Quest"] = false,
-        ["Auto Submit"] = false,
-        ["Auto Trade Eggs"] = false,
-        ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-            "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-            "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
+    ["Zen Event"] = {
+        ["Restock Max Cost"] = 16000000,
+        ["Zen Seed Pack"] = true,
+        ["Zen Egg"] = true,
+        ["Koi"] = true,
+        ["Spiked Mango"] = true
     },
     ["Url"] = "", -- Webhook,
     ["Boost FPS"] = true,
