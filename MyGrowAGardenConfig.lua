@@ -1,9 +1,9 @@
 return {
     ["Time To Sell"] = 35, -- Seconds
     ["Craft Event"] = {
-        ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true,
-        ["Ancient Seed Pack"] = true
+        ["Crafters Seed Pack"] = false,
+        ["Anti Bee Egg"] = false,
+        ["Ancient Seed Pack"] = false
     },
     ["Dont Open Pack"] = false,
     ["Dont Use Flower Seed Pack"] = true, -- If u Enable Crafters Seed Pack pls enable this
