@@ -99,10 +99,10 @@ return {
         ["Destroy Untill"] = 150
     },
     ["Dino Event"] = {
-        ["Auto Claim Quest"] = true,
-        ["Auto Restart Quest"] = true,
-        ["Auto Submit"] = true,
-        ["Auto Trade Eggs"] = true,
+        ["Auto Claim Quest"] = false,
+        ["Auto Restart Quest"] = false,
+        ["Auto Submit"] = false,
+        ["Auto Trade Eggs"] = false,
         ["Pet Dont Trade"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
             "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
             "Hamster", "T-Rex", "Toucan", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk"},
