@@ -1,7 +1,4 @@
-repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
-
-getgenv().Key = ""
-getgenv().Config = {
+return {
     ["Hide UI"] = false,
     ["Hide Notify"] = true,
     ["Buy Egg"] = {
@@ -179,9 +176,3 @@ getgenv().Config = {
     ["Enable Screen Black"] = true,
     ["Screen Black FPS Cap"] = 1
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/KaitunGAG.lua"))()
-
-task.delay(6, function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiHub111/Premium-/main/BananaConfig"))()
-end)
