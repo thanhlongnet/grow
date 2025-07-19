@@ -1,6 +1,6 @@
 return {
 	["Stack Plant"] = true,
-	["Low Cpu"] = false,
+	["Low Cpu"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
 		["Limit"] = 300,
