@@ -64,17 +64,11 @@ return {
             ["Place"] = true,
             ["Priority"] = 3
         },
-        ["Common Egg"] = {
-            ["Buy"] = false,
-            ["Place"] = true,
-            ["Priority"] = 2
-        },
         ["Primal Egg"] = {
             ["Place"] = true,
             ["Priority"] = 2
         },
         ["Zen Egg"] = {
-            ["Place"] = true,
             ["Buy"] = true,
             ["Priority"] = 1
         }
