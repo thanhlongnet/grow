@@ -82,7 +82,9 @@ return {
 			"Spiked Mango",
 			"Pet Shard Tranquil",
 			"Koi",
-		}
+		},
+		Restocks_limit = 5000000,
+		MinimumChi = 10
 	},
 
 	Gear = {
@@ -126,7 +128,7 @@ return {
 			"Paradise Egg",
 			"Anti Bee Egg",
 			"Night Egg",
-			-- "Rare Summer Egg",
+			"Rare Summer Egg",
 			"Bug Egg",
 			"Mythical Egg",
 			-- "Common Egg",
@@ -219,7 +221,7 @@ return {
 				"Raccoon",
 				"Fennec Fox",
 			},
-			Pet_Weight_Noti = true,
+			Pet_Weight_Noti = false,
 		}
 	},
 }
