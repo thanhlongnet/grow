@@ -134,7 +134,7 @@ return {
 			"Rare Summer Egg",
 			"Bug Egg",
 			"Mythical Egg",
-			"Common Egg",
+			-- "Common Egg",
 		}
 	},
 
