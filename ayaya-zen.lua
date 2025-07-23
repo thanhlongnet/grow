@@ -120,10 +120,10 @@ return {
 			"Paradise Egg",
 			"Anti Bee Egg",
 			"Night Egg",
-			"Rare Summer Egg",
+			-- "Rare Summer Egg",
 			"Bug Egg",
-			"Mythical Egg",
-			"Common Egg",
+			-- "Mythical Egg",
+			-- "Common Egg",
 		}
 	},
 
