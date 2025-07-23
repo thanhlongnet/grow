@@ -1,6 +1,7 @@
 return {
 	["Stack Plant"] = true,
 	["Low Cpu"] = true,
+	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
 		["Limit"] = 300,
@@ -63,7 +64,6 @@ return {
 
 	["Seed Pack"] = {
 		Locked = {
-
 		}
 	},
 
@@ -141,7 +141,7 @@ return {
 			["Pet"] = {
 				["Starfish"] = { 5, 100 },
 			},
-			["Limit Upgrade"] = 4,
+			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				["Seal"] = { 1, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
