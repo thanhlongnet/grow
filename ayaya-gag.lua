@@ -1,7 +1,9 @@
 return {
 	["Stack Plant"] = true,
+	
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
+	
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
 		["Limit"] = 300,
@@ -64,6 +66,7 @@ return {
 
 	["Seed Pack"] = {
 		Locked = {
+
 		}
 	},
 
@@ -88,7 +91,7 @@ return {
 	},
 
 	Gear = {
-		Buy = { 
+		Buy = { 
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
@@ -131,7 +134,7 @@ return {
 			"Rare Summer Egg",
 			"Bug Egg",
 			"Mythical Egg",
-			-- "Common Egg",
+			"Common Egg",
 		}
 	},
 
