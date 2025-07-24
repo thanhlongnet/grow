@@ -71,6 +71,17 @@ return {
 	},
 
 	Events = {
+		["Zen Event"] = {
+			["Restocking"] = { -- Minimumthing to restock
+				Minimum_Money = 10_000_000,
+				Minimum_Chi = 200
+			},
+			["Doing"] = {
+				Minimum_Money = 30_000_000, -- minimum money to start play this event
+				First_Upgrade_Tree = 4,
+				Maximum_Chi = 250,
+			}
+		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
@@ -86,8 +97,6 @@ return {
 			"Pet Shard Tranquil",
 			"Koi",
 		},
-		Restocks_limit = 5000000,
-		MinimumChi = 10
 	},
 
 	Gear = {
