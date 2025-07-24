@@ -129,7 +129,7 @@ return {
 			"Night Egg",
 			"Bug Egg",
 			"Paradise Egg",
-			"Bee Egg",
+			-- "Bee Egg",
 			"Rare Summer Egg",
 			"Mythical Egg",
 			"Common Egg",
