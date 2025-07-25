@@ -1,5 +1,5 @@
 return {
-	["Stack Plant"] = true,
+	["Block Pet Gift"] = true,
 	
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
@@ -73,6 +73,7 @@ return {
 	Events = {
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 50_000_000,
 				Minimum_Money = 10_000_000,
 				Minimum_Chi = 200
 			},
@@ -151,9 +152,9 @@ return {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 5, 100 },
+				["Starfish"] = { 5, 100, 1 },
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
 				["Seal"] = { 1, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
@@ -185,6 +186,7 @@ return {
 				["Blood Owl"] = { 1, 70 },
 			},
 		},
+		Locked_Pet_Age = 80, -- pet that age > 60 will lock
 		Locked = {
 			"Moth",
 			"Koi",
@@ -217,6 +219,9 @@ return {
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
 			"Shiba Inu",
+			"Dog",
+			"Bunny",
+			"Golden Lab",
 		}
 	},
 
