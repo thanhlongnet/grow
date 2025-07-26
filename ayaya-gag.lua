@@ -222,6 +222,7 @@ return {
 			"Dog",
 			"Bunny",
 			"Golden Lab",
+			"Tanuki",
 		}
 	},
 
