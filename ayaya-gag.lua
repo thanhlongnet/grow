@@ -98,6 +98,8 @@ return {
 			"Pet Shard Tranquil",
 			"Pet Shard Corrupted",
 			"Koi",
+			"Soft Sunshine",
+			"Sakura Bush",
 			"Raiju",
 		},
 	},
@@ -132,7 +134,7 @@ return {
 			"Night Egg",
 			"Bug Egg",
 			"Paradise Egg",
-			-- "Bee Egg",
+			"Corrupted Zen Egg",
 			"Rare Summer Egg",
 			"Mythical Egg",
 			"Common Egg",
@@ -156,7 +158,7 @@ return {
 			["Pet"] = {
 				["Starfish"] = { 5, 100, 1 },
 			},
-			["Limit Upgrade"] = 3,
+			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				["Seal"] = { 1, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
