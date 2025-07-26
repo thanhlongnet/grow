@@ -122,8 +122,6 @@ return {
 	Eggs = {
 		Place = {
 			"Zen Egg",
-			"Anti Bee Egg",
-			"Bug Egg",
 		},
 		Buy = {
 			"Bee Egg",
