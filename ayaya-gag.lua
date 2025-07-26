@@ -96,6 +96,7 @@ return {
 			"Zen Seed Pack",
 			"Spiked Mango",
 			"Pet Shard Tranquil",
+			"Pet Shard Corrupted",
 			"Koi",
 			"Raiju",
 		},
