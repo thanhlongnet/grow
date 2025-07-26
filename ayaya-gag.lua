@@ -97,6 +97,7 @@ return {
 			"Spiked Mango",
 			"Pet Shard Tranquil",
 			"Koi",
+			"Raiju",
 		},
 	},
 
