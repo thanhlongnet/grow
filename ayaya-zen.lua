@@ -1,5 +1,5 @@
 return {
-	["Stack Plant"] = true,
+	["Block Pet Gift"] = true,
 	
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
@@ -73,6 +73,7 @@ return {
 	Events = {
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
+				Max_Restocks_Price = 50_000_000,
 				Minimum_Money = 10_000_000,
 				Minimum_Chi = 200
 			},
@@ -95,7 +96,11 @@ return {
 			"Zen Seed Pack",
 			"Spiked Mango",
 			"Pet Shard Tranquil",
+			"Pet Shard Corrupted",
 			"Koi",
+			"Soft Sunshine",
+			"Sakura Bush",
+			"Raiju",
 		},
 	},
 
@@ -121,7 +126,10 @@ return {
 
 	Eggs = {
 		Place = {
+			"Corrupted Zen Egg",
 			"Zen Egg",
+			"Anti Bee Egg",
+			"Bug Egg",
 		},
 		Buy = {
 			"Bee Egg",
@@ -129,10 +137,8 @@ return {
 			"Paradise Egg",
 			"Anti Bee Egg",
 			"Night Egg",
-			-- "Rare Summer Egg",
 			"Bug Egg",
-			-- "Mythical Egg",
-			-- "Common Egg",
+			"Mythical Egg",
 		}
 	},
 
@@ -140,12 +146,17 @@ return {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 5, 100 },
+				["Starfish"] = { 5, 100, 1 },
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				["Seal"] = { 1, 70, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
+				["Moth"] = { 1, 70 },
+				["Wasp"] = { 1, 70 },
+				["Tarantula Hawk"] = { 1, 70 },
+				["Petal Bee"] = { 1, 70 },
+				["Honey Bee"] = { 1, 70 },
 				["Koi"] = { 1, 70 },
 				["Tanuki"] = { 1, 70 },
 				["Tanchozuru"] = { 1, 70 },
@@ -167,9 +178,16 @@ return {
 				["Mimic Octopus"] = { 1, 70 },
 				["Red Fox"] = { 1, 70 },
 				["Blood Owl"] = { 1, 70 },
+				["Toucan"] = { 1, 70 },
+				["Corrupted Kitsune"] = { 1, 70 },
+				["Football"] = { 1, 70 },
+				["Mizuchi"] = { 1, 70 },
+				["Raiju"] = { 1, 70 },
 			},
 		},
+		Locked_Pet_Age = 80, -- pet that age > 60 will lock
 		Locked = {
+			"Moth",
 			"Koi",
 			"Tanuki",
 			"Tanchozuru",
@@ -191,6 +209,15 @@ return {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			"Wasp",
+			"Tarantula Hawk",
+			"Petal Bee",
+			"Honey Bee",
+			"Toucan",
+			"Corrupted Kitsune",
+			"Football",
+			"Mizuchi",
+			"Raiju",
 			["Starfish"] = 10,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
