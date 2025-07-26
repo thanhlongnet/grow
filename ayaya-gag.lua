@@ -97,7 +97,7 @@ return {
 			"Spiked Mango",
 			"Pet Shard Tranquil",
 			"Pet Shard Corrupted",
-			"Koi",
+			-- "Koi",
 			"Soft Sunshine",
 			"Sakura Bush",
 			"Raiju",
@@ -237,6 +237,8 @@ return {
 			"Bunny",
 			"Golden Lab",
 			"Tanuki",
+			"Wsf77K1tHVy1",
+			"Maneki-neko",
 		}
 	},
 
