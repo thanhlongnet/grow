@@ -170,6 +170,7 @@ return {
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
 				["Kodama"] = { 5, 70, 1 },
+				["Corrupted Kodama"] = { 5, 70, 2 },
 				-- ["Seal"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 75 },
 				-- ["Moth"] = { 1, 70 },
