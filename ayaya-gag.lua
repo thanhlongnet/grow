@@ -199,7 +199,7 @@ return {
 		Locked_Pet_Age = 80, -- pet that age > 60 will lock
 		Locked = {
 			["Kodama"] = 20,
-			"Moth",
+			-- "Moth",
 			"Koi",
 			"Tanuki",
 			"Tanchozuru",
@@ -223,7 +223,7 @@ return {
 			"Blood Owl",
 			"Wasp",
 			"Tarantula Hawk",
-			"Petal Bee",
+			-- "Petal Bee",
 			"Honey Bee",
 			"Toucan",
 			"Corrupted Kitsune",
