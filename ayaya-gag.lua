@@ -208,7 +208,7 @@ return {
 		Locked_Pet_Age = 80, -- pet that age > 60 will lock
 		Locked = {
 			["Corrupted Kodama"] = 20,
-			["Kodama"] = 20,
+			["Kodama"] = 10,
 			"Koi",
 			"Tanuki",
 			"Tanchozuru",
