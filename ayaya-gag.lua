@@ -108,7 +108,7 @@ return {
 			-- "Koi",
 			"Soft Sunshine",
 			"Sakura Bush",
-			"Raiju",
+			-- "Raiju",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -172,7 +172,7 @@ return {
 				["Kodama"] = { 5, 70, 1 },
 				["Corrupted Kodama"] = { 5, 70, 2 },
 				-- ["Seal"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
-				["Starfish"] = { 1, 75 },
+				["Starfish"] = { 1, 70 },
 				-- ["Moth"] = { 1, 70 },
 				-- ["Wasp"] = { 1, 70 },
 				-- ["Tarantula Hawk"] = { 1, 70 },
