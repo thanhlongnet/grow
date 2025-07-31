@@ -83,7 +83,7 @@ return {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 50_000_000,
 				Minimum_Money = 10_000_000,
-				Minimum_Chi = 100
+				Minimum_Chi = 31
 			},
 			["Doing"] = {
 				Minimum_Money = 30_000_000, -- minimum money to start play this event
