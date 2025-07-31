@@ -211,7 +211,7 @@ return {
 			["Kodama"] = 10,
 			"Koi",
 			-- "Tanuki",
-			-- "Tanchozuru",
+			"Tanchozuru",
 			"Kappa",
 			"Kitsune",
 			"Dilophosaurus",
