@@ -89,6 +89,8 @@ return {
 				Minimum_Money = 30_000_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 4,
 				Maximum_Chi = 250,
+				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = false, -- Skip The OldMan Trade (Kodama)
 			}
 		},
 		["Traveling Shop"] = {
