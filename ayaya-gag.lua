@@ -167,11 +167,11 @@ return {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 5, 100, 1 },
+				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
-			["Limit Upgrade"] = 2,
+			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
-				["Kodama"] = { 5, 70, 1 },
+				["Kodama"] = { 4, 70, 1 },
 				["Corrupted Kodama"] = { 5, 70, 2 },
 				-- ["Seal"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
@@ -207,7 +207,8 @@ return {
 				-- ["Mizuchi"] = { 1, 70 },
 			},
 		},
-		Locked_Pet_Age = 80, -- pet that age > 60 will lock
+		Favorite_LockedPet = true,
+		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
 			["Corrupted Kodama"] = 20,
 			["Kodama"] = 10,
