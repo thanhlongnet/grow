@@ -81,7 +81,7 @@ return {
 	Events = {
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
-				Max_Restocks_Price = 50_000_000_000_000_000,
+				Max_Restocks_Price = 50_000_000_000_000,
 				Minimum_Money = 10_000_000,
 				Minimum_Chi = 31
 			},
