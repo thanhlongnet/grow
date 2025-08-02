@@ -145,7 +145,7 @@ return {
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
+				["Kodama"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
 				["Ostrich"] = { 3, 100, 2 },
 				["Blood Kiwi"] = { 8, 100 },
 				["Seal"] = { 8, 100 },
