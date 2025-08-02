@@ -172,7 +172,7 @@ return {
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
 				["Kodama"] = { 4, 70, 1 },
-				["Corrupted Kodama"] = { 5, 70, 2 },
+				["Corrupted Kodama"] = { 5, 70 },
 				-- ["Seal"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Starfish"] = { 1, 70 },
 				-- ["Moth"] = { 1, 70 },
@@ -180,7 +180,7 @@ return {
 				-- ["Tarantula Hawk"] = { 1, 70 },
 				-- ["Petal Bee"] = { 1, 70 },
 				-- ["Honey Bee"] = { 1, 70 },
-				["Koi"] = { 1, 70, 3 },
+				["Koi"] = { 1, 70 },
 				-- ["Tanuki"] = { 1, 70 },
 				-- ["Tanchozuru"] = { 1, 70 },
 				["Kappa"] = { 1, 70 },
