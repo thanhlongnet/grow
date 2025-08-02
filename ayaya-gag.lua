@@ -1,6 +1,7 @@
 return {
 	["Block Pet Gift"] = true,
 	Collect_Cooldown = 60, -- cooldown to collect fruit
+	JustFuckingCollectAll = false,
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
 	
@@ -12,45 +13,14 @@ return {
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Fossilight",
-
-			-- locked fruit for zen event
-			["Tomato"] = 1, ["Strawberry"] = 1, ["Blueberry"] = 1,
-			["Orange Tulip"] = 1, ["Corn"] = 1, ["Daffodil"] = 1,
-			["Bamboo"] = 1, ["Apple"] = 1, ["Coconut"] = 1,
-			["Pumpkin"] = 1, ["Watermelon"] = 1, ["Cactus"] = 1,
-			["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1,
-			["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1
 		}
 	},
 
 	Seed = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
-			Custom = {
+			Custom = { -- any fruit u need to place
 				"Carrot",
-				"Bamboo",
-				"Pumpkin",
-				"Daffodil",
-				"Orange Tulip",
-				"Watermelon",
-				"Mushroom",
-				"Avocado",
-				"Feijoa",
-				"Cauliflower",
-				"Loquat",
-				"Green Apple",
-				"Nightshade",
-				"Firefly Fern",
-				"Soft Sunshine",
-				"Zen Rocks",
-				"Hinomai",
-				"Beanstalk",
-				"Ember Lily",
-				"Sunflower",
-				"Sugar Apple",
-				"Burning Bud",
-				"Giant Pinecone",
-				"Spiked Mango",
 			}
 		},
 		Place = {
@@ -79,9 +49,12 @@ return {
 	},
 
 	Events = {
+		["Cook Event"] = {
+			Minimum_Money = 30_000_000, -- minimum money to start play this event
+		},
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
-				Max_Restocks_Price = 50_000_000_000,
+				Max_Restocks_Price = 50_000_000,
 				Minimum_Money = 10_000_000,
 				Minimum_Chi = 200
 			},
@@ -103,14 +76,14 @@ return {
 		},
 		Shop = {
 			"Zen Egg",
-			-- "Zen Seed Pack",
-			-- "Spiked Mango",
+			"Zen Seed Pack",
+			"Spiked Mango",
 			"Pet Shard Tranquil",
 			"Pet Shard Corrupted",
-			-- "Koi",
-			-- "Soft Sunshine",
-			-- "Sakura Bush",
-			-- "Raiju",
+			"Koi",
+			"Soft Sunshine",
+			"Sakura Bush",
+			"Raiju",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -137,6 +110,7 @@ return {
 
 	Eggs = {
 		Place = {
+			"Gourmet Egg",
 			"Zen Egg",
 			"Primal Egg",
 			"Dinosaur Egg",
@@ -171,49 +145,22 @@ return {
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
-				["Kodama"] = { 4, 70, 1 },
-				["Corrupted Kodama"] = { 5, 70 },
-				-- ["Seal"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
-				["Starfish"] = { 1, 70 },
-				-- ["Moth"] = { 1, 70 },
-				-- ["Wasp"] = { 1, 70 },
-				-- ["Tarantula Hawk"] = { 1, 70 },
-				-- ["Petal Bee"] = { 1, 70 },
-				-- ["Honey Bee"] = { 1, 70 },
-				["Koi"] = { 1, 70 },
-				-- ["Tanuki"] = { 1, 70 },
-				-- ["Tanchozuru"] = { 1, 70 },
-				["Kappa"] = { 1, 70 },
-				["Kitsune"] = { 1, 70 },
-				-- ["Dilophosaurus"] = { 1, 70 },
-				["Moon Cat"] = { 1, 70 },
-				["Capybara"] = { 1, 70 },
-				["Spinosaurus"] = { 1, 70 },
-				["Bear Bee"] = { 1, 70 },
-				["T-Rex"] = { 1, 70 },
-				["Brontosaurus"] = { 1, 70 },
-				["Disco Bee"] = { 1, 70 },
-				["Butterfly"] = { 1, 70 },
-				-- ["Queen Bee"] = { 1, 70 },
-				["Dragonfly"] = { 1, 70 },
-				["Raccoon"] = { 1, 70 },
-				["Fennec Fox"] = { 1, 70 },
-				["Mimic Octopus"] = { 1, 70 },
-				["Red Fox"] = { 1, 70 },
-				["Blood Owl"] = { 1, 70 },
-				["Toucan"] = { 1, 70 },
-				["Corrupted Kitsune"] = { 1, 70 },
-				["Football"] = { 1, 70 },
-				-- ["Mizuchi"] = { 1, 70 },
+				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
+				["Ostrich"] = { 3, 100, 2 },
+				["Blood Kiwi"] = { 8, 100 },
+				["Seal"] = { 8, 100 },
+				["Rooster"] = { 8, 100 },
+				["Starfish"] = { 5, 75 },
 			},
 		},
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
 		Locked = {
+			"French Fry Ferret",
+			"Spaghetti Sloth",
 			["Corrupted Kodama"] = 20,
 			["Kodama"] = 10,
 			"Koi",
-			-- "Tanuki",
 			"Tanchozuru",
 			"Kappa",
 			"Kitsune",
@@ -221,7 +168,6 @@ return {
 			"Moon Cat",
 			"Capybara",
 			"Spinosaurus",
-			"Bear Bee",
 			"T-Rex",
 			"Brontosaurus",
 			"Disco Bee",
@@ -235,25 +181,14 @@ return {
 			"Blood Owl",
 			"Wasp",
 			"Tarantula Hawk",
-			-- "Petal Bee",
 			"Honey Bee",
 			"Toucan",
 			"Corrupted Kitsune",
 			"Football",
-			-- "Mizuchi",
 			"Raiju",
 			["Starfish"] = 10,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
-		Instant_Sell = {		
-			"Shiba Inu",
-			"Dog",
-			"Bunny",
-			"Golden Lab",
-			-- "Tanuki",
-			"Orangutan",
-			"Maneki-neko",
-		}
 	},
 
 	Webhook = {
