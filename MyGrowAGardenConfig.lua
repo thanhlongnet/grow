@@ -75,7 +75,7 @@ return {
             ["Enable Sell Pet"] = true,
             ["Max Slot Pet To Sell"] = 50,
             ["Keep Weight"] = 10,
-            ["Keep Age"] = 10,
+            ["Keep Age"] = 1,
             ["Keep Pet"] = {
                 "French Fry Ferret",
                 "Corrupted Kitsune",
