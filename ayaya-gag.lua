@@ -229,6 +229,9 @@ getgenv().ConfigsKaitun = {
 			["Rooster"] = 5,
 		},
 		LockPet_Weight = 5, -- if Weight >= 10 they will locked
+		Instant_Sell = {
+			"Shiba Inu",
+		}
 	},
  
 	Webhook = {
