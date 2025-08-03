@@ -47,6 +47,7 @@ return {
 			"Anti Bee Egg",
 			["Mythical Egg"] = 1,
 			["Rare Egg"] = 1,
+			["Rare Summer Egg"] = 1,
 			["Common Egg"] = 1,
             ["Common Summer Egg"] = 1
         },
