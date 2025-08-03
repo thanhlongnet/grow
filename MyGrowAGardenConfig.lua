@@ -59,13 +59,13 @@ return {
         ["Equip Pet"] = {
             ["Enable"] = true,
             ["Pets"] = {
-                "Tanchozuru",
-                ["Sushi Bear"] = 2,
-                ["Spaghetti Sloth"] = 2,
-                "Kodama",
-                "Sushi Bear",
-                "Spaghetti Sloth",
-                "Corrupted Kodama",
+                ["Tanchozuru"] = 1,
+                ["Sushi Bear"] = 1,
+                ["Spaghetti Sloth"] = 1,
+                ["Kodama"] = 1,
+                ["Sushi Bear"] = 1,
+                ["Spaghetti Sloth"] 1,
+                ["Corrupted Kodama"] 1,
             }
         },
         ["Upgrade Slots"] = {
