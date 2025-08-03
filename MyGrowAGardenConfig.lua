@@ -1,132 +1,115 @@
 return {
-    ["Time To Sell"] = 35, -- Seconds
-    ["Craft Event"] = {
-        ["Crafters Seed Pack"] = true,
-        ["Anti Bee Egg"] = true
+    ["Boost FPS"] = true,
+    ["Time Sell"] = 35,
+    ["Plant"] = {
+        ["Limit Plant"] = 200,
+        ["Mode Plant"] = "Custom",
+        ["Custom Plant"] = {["Fossilight"] = 1, "Starfruit", "Dragon Fruit", "Tranquil Bloom", "Tranquil Clover",
+                "Burning Bud", "Giant Pinecone", "Cacao", "Ember Lily", "Pitcher Plant",
+                            "Sunlight Clover", "Zen Rocks", "Bone Blossom", "Maple Apple", "Hinomai",
+                            "Soft Sunshine", "Mango", "Coconut", "Feijoa", "Taro Flower",
+                            "Serenity", ["Sugar Apple"] = 5, ["Grape"] = 2, "Loquat", "Bamboo",
+                            "Beanstalk", "Mushroom", "Pepper", "Blueberry", "Strawberry"},
+        ['Ignore Seeds'] = {'Dragon Pepper', 'Elephant Ears', 'Sunflower', 'Candy Blossom'}
     },
-    ["Dont Open Pack"] = false,
-    ["Mode Plant"] = "Auto", -- "Custom"
-
-    ["Seed"] = { -- Seed Plant Custom
-        ["Strawberry"] = 44,
-        ["Blueberry"] = 44,
-        ["Tomato"] = 44,
-        ["Loquat"] = 44,
-        ["Pineapple"] = 44,
-        ["Carrot"] = 44,
-        ["Bell Pepper"] = 44,
-        ["Green Apple"] = 44,
-        ["Feijoa"] = 44,
-        ["Avocado"] = 44,
-        ["Sugar Apple"] = 44,
-        ["Banana"] = 44,
-        ["Prickly Pear"] = 44,
-        ["Watermelon"] = 44,
-        ["Kiwi"] = 44
+    ['Sprinkler'] = {
+        ['Buy Sprinkler'] = true,
+        ['Place Sprinkler'] = true,
+        ['Sprinklers'] = {'Basic Sprinkler', 'Advanced Sprinkler', 'Master Sprinkler', 'Godly Sprinkler',
+                          'Grandmaster Sprinkler'}
     },
-    ["Keep Seed"] = {"Dragon Pepper", "Elephant Ears", "Sunflower", "Candy Blossom"},
+    ["Keep Pack"] = {},
+    ['Destroy Plants'] = {
+        ['Auto Destroy When Money Is Bigger Than'] = 1000000, -- will destroy all selected trees when money >= select
+        ['Trees'] = {
+            ["Strawberry"] = 5,
+            ["Blueberry"] = 5,
+            ["Apple"] = 5,
+            ["Tomato"] = 5,
+            ["Corn"] = 5,
+            ["Bamboo"] = 5,
+            ["Coconut"] = 5,
+            ["Pumpkin"] = 5,
+            ["Watermelon"] = 5,
+            ["Pepper"] = 5,
+            "Carrot"
+        },
+        ['Destroy Until Plants Left'] = 150
+    },
     ["Egg"] = {
-        ["Mythical Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 5
+        ["Place"] = {
+            "Zen Egg",
+            "Corrupted Zen Egg",
+            "Gourmet Egg",
+			"Bug Egg",
+			"Paradise Egg",
+			"Primal Egg",
+			"Anti Bee Egg",
+			["Mythical Egg"] = 1,
+			["Rare Egg"] = 1,
+			["Common Egg"] = 1,
+            ["Common Summer Egg"] = 1
         },
-        ["Oasis Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 4
+        ["Buy"] = {"Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg",
+                   "Primal Egg", "Anti Bee Egg", "Bee Egg"}
+    },
+    ["Pet"] = {
+
+        ["Equip Pet"] = {
+            ["Enable"] = true,
+            ["Pets"] = {
+                "Tanchozuru",
+                ["Sushi Bear"] = 2,
+                ["Spaghetti Sloth"] = 2,
+                "Kodama",
+                "Sushi Bear",
+                "Spaghetti Sloth",
+                "Corrupted Kodama",
+            }
         },
-        ["Anti Bee Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 4
+        ["Upgrade Slots"] = {
+            ["Pet Upgrades"] = {"Starfish"}
         },
-        ["Night Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 4
-        },
-        ["Bug Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 4
-        },
-        ["Paradise Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = true,
-            ["Priority"] = 3
-        },
-        ["Bee Egg"] = {
-            ["Buy"] = true,
-            ["Place"] = false,
-            ["Priority"] = 3
-        },
-        ["Dinosaur Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 3
-        },
-        ["Primal Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 2
-        },
-        ["Zen Egg"] = {
-            ["Place"] = true,
-            ["Priority"] = 1
+        ["Sell Pet"] = {
+            ["Enable Sell Pet"] = true,
+            ["Max Slot Pet To Sell"] = 10,
+            ["Keep Weight"] = 10,
+            ["Keep Age"] = 10,
+            ["Keep Pet"] = {
+                "French Fry Ferret",
+                "Corrupted Kitsune",
+                "Corrupted Kodama",
+                "Kitsune",
+                "Bald Eagle",
+                "Spinosaurus",
+                "T-Rex",
+                "Dilophosaurus",
+                "Brontosaurus",
+                "Ankylosaurus",
+                "Dragonfly",
+                "Butterfly",
+                "Raccon",
+                "Fennec Fox",
+                "Red Fox",
+                "Disco Bee",
+                "Queen Bee",
+                "Mimic Octopus",
+                "Hyacinth Macaw",
+                "Blood Owl",
+                "Chicken",
+                "Rooster",
+                "Blood Kiwi",
+                ["Koi"] = 8,
+                ["Scarlet Macaw"] = 8,
+                ["Tanchozuru"] = 8,
+                ["Capybara"] = 2,
+                ["Starfish"] = 5
+            }
         }
     },
-
-    ["Limit Tree"] = 250,
-    ["Sprinkler"] = {
-        ["Place Sprinkler"] = true,
-        ["Buy Sprinkler"] = true,
-        ["Basic Sprinkler"] = true,
-        ["Advanced Sprinkler"] = true,
-        ["Master Sprinkler"] = true,
-        ["Godly Sprinkler"] = true
-    },
-    ["PetNeedSend"] = {"Dragonfly", "Raccoon", "Disco Bee", "Butterfly", "Mimic Octopus", "Kitsune"},
-    ["Destroy Mode"] = {
-        ["Auto Destroy when have money"] = 1000000, -- its will destroy all trees select when money >= select
-        ["Mode Destroy"] = "Auto", -- "Custom"
-        ["Trees"] = {"Strawberry", "Blueberry", "Corn", "Orange Tulip", "Carrot"},
-        ["Rarity Destroy Auto"] = {"Common", "Uncommon", "Rare", "Legendary"},
-        ["Destroy Untill"] = 150
-    },
-    ["Zen Event"] = {
-        ["Restock Max Cost"] = 16000000,
-        ["Zen Seed Pack"] = true,
-        ["Zen Egg"] = true,
-        ["Koi"] = true,
-        ["Spiked Mango"] = true
-    },
-    ["Url"] = "", -- Webhook 
-    ["Boost FPS"] = true,
-    ["Black Screen"] = true,
-    ["Note"] = "Cyndral Hub",
-    ["Pet Mode"] = {
-        ["Sell Pet"] = true,
-        ["Equip Pet"] = true,
-        ["Name Pet Equip"] = {
-            ["Wasp"] = 1,
-            ["Tarantula Hawk"] = 1,
-            ["Petal Bee"] = 1,
-            ["Honey Bee"] = 1,
-            ["Dog"] = 1,
-            ["Dilophosaurus"] = 1,
-            ["Brontosaurus"] = 1,
-            ["Pterodactyl"] = 1,
-        },
-        ["Max Slot Pet To Sell"] = 50, -- If Total Pet In Inventory >= ["Max Slot Pet To Sell"] script will sell pet
-        ["Upgrade Slot Egg"] = {
-            ["Enable"] = true,
-            ["Pet"] = {"Starfish"}
-
-        },
-        ["Pet Dont Delete"] = {"Queen Bee", "Red Fox", "Dragonfly", "Raccoon", "Disco Bee", "Butterfly",
-            "Mimic Octopus", "Fennec Fox", "Axolotl", "Hyacinth Macaw",
-            "Hamster", "T-Rex", "Wasp", "Moth", "Bear Bee", "Honey Bee", "Petal Bee", "Tarantula Hawk", "Toucan", "Starfish", "Spinosaurus", "Ankylosaurus", "Brontosaurus", "Dilophosaurus", "Kitsune", "Tanchozuru", "Kappa", "Tanuki"},
-        ["Dont Sell Pet If Weight > x"] = 10 -- Script dont sell pet if this weight >= 10
-    },
-    ["Webhook Mode"] = {
-        ["Enable Send Pet Weight"] = false,
-        ["Weight"] = 10 -- if Weight >= 10 they will send wh
+    ["Webhook"] = {
+        ["Enable"] = false,
+        ["Url"] = "",
+        ["Pet Notification"] = {"French Fry Ferret", "Dragonfly", "Kitsune", "Corrupted Kitsune"}
     }
-
 }
