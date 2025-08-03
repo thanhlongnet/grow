@@ -231,6 +231,7 @@ getgenv().ConfigsKaitun = {
 		LockPet_Weight = 5, -- if Weight >= 10 they will locked
 		Instant_Sell = {
 			"Shiba Inu",
+			"Bunny",
 		}
 	},
  
