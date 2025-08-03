@@ -96,12 +96,12 @@ getgenv().ConfigsKaitun = {
 		},
 		Shop = {
 			"Zen Egg",
-			"Zen Seed Pack",
+			-- "Zen Seed Pack",
 			"Pet Shard Tranquil",
-			"Pet Shard Corrupted",
-			"Soft Sunshine",
-			"Sakura Bush",
-			"Raiju",
+			-- "Pet Shard Corrupted",
+			-- "Soft Sunshine",
+			-- "Sakura Bush",
+			-- "Raiju",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
