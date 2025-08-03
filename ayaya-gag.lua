@@ -189,9 +189,9 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 5, 100, 1 },
-				["Ostrich"] = { 3, 100, 2 },
-				["Kodama"] = { 8, 100 },
+				["Tanchozuru"] = { 5, 100, 2 },
+				["Ostrich"] = { 3, 100, 3 },
+				["Kodama"] = { 8, 100, 1 },
 				["Rooster"] = { 8, 100 },
 			},
 		},
@@ -202,8 +202,6 @@ getgenv().ConfigsKaitun = {
 			"Spaghetti Sloth",
 			"Corrupted Kitsune",
 			"Raiju",
-			["Kodama"] = 10,
-			["Corrupted Kodama"] = 10,
 			"Koi",
 			"Tanuki",
 			"Tanchozuru",
@@ -227,6 +225,8 @@ getgenv().ConfigsKaitun = {
 			"Blood Kiwi",
 			["Starfish"] = 10,
 			["Rooster"] = 5,
+			["Kodama"] = 10,
+			["Corrupted Kodama"] = 10,
 		},
 		LockPet_Weight = 5, -- if Weight >= 10 they will locked
 		Instant_Sell = {
