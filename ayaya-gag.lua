@@ -1,4 +1,5 @@
 getgenv().ConfigsKaitun = {
+	["Stack Plant"] = true,
 	Beta_Fix_Data_Sync = true,
 	["Block Pet Gift"] = true,
  
@@ -90,12 +91,11 @@ getgenv().ConfigsKaitun = {
 		},
 		Shop = {
 			"Zen Egg",
-			"Zen Seed Pack",
 			"Spiked Mango",
 			"Bell Pepper",
 			"Feijoa",
 		},
-		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
+		Start_Do_Honey = 1_000_000 -- start trade fruit for honey at money
 	},
 
  
