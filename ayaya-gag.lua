@@ -126,9 +126,10 @@ getgenv().ConfigsKaitun = {
 			},
 			["Limit Upgrade"] = 4,
 			["Equip When Done"] = {
-				["Blood Kiwi"] = { 8, 100, 1 },
+				["Wasp"] = { 2, 100, 1 },
 				["Rooster"] = { 8, 100, 2 },
 				["Chicken"] = { 8, 100, 3 },
+				["Tarantula Hawk"] = { 2, 100, 1 },
 			},
 		},
 		Favorite_LockedPet = true,
