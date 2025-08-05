@@ -59,7 +59,7 @@ getgenv().ConfigsKaitun = {
 			"Primal Egg",
 		},
 		Shop = {
-			--"Zen Egg",
+			"Zen Egg",
 			--"Spiked Mango",
 			--"Bell Pepper",
 			--"Feijoa",
