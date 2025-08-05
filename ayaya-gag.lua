@@ -59,10 +59,10 @@ getgenv().ConfigsKaitun = {
 			"Primal Egg",
 		},
 		Shop = {
-			"Zen Egg",
-			"Spiked Mango",
-			"Bell Pepper",
-			"Feijoa",
+			--"Zen Egg",
+			--"Spiked Mango",
+			--"Bell Pepper",
+			--"Feijoa",
 		},
 		Start_Do_Honey = 1_000_000 -- start trade fruit for honey at money
 	},
