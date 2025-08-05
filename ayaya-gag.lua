@@ -161,6 +161,8 @@ getgenv().ConfigsKaitun = {
 			"Red Fox",
 			"Blood Owl",
 			["Starfish"] = 10,
+			["Tarantula Hawk"] = 5,
+			["Wasp"] = 5,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
