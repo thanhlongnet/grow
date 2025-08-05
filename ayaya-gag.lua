@@ -10,58 +10,60 @@ getgenv().ConfigsKaitun = {
  
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Untill"] = 280,
- 
+		["Limit"] = 250,
+		["Destroy Untill"] = 200,
+
 		["Safe Tree"] = {
-			"Tranquil Bloom",
-			"Maple Apple",
-			"Sunflower",
-			"Dragon Pepper",
-			"Elephant Ears",
-			"Moon Melon",
-			"Easter Egg",
-			"Moon Mango",
+			["Tomato"] = 1,
+			["Blood Banana"] = 1,
+			["Bamboo"] = 1,
+			["Mango"] = 1,
+			["Pineapple"] = 1,
+			["Beanstalk"] = 1,
+			["Giant Pinecone"] = 1,
+			["Sugar Apple"] = 1,
+			["Pepper"] = 1,
+			["Cacao"] = 1,
+			["Elder Strawberry"] = 1,
+			["Apple"] = 1,
 			"Bone Blossom",
-			"Fossilight",
+			"Grand Tomato",
+			["Ember Lily"] = 1,
+			["Violet Corn"] = 1,
+			["Pumpkin"] = 1,
+			["Moon Melon"] = 1,
+			["Apple"] = 1,
+			["Coconut"] = 1,
+			["Feijoa"] = 1,
+			["Crown Melon"] = 1,
+			["Grape"] = 1,
+			["Dragon Fruit"] = 1,
+			["Cactus"] = 1,
+			["Peach"] = 1,
+			["Corn"] = 1,
+			["Banana"] = 2,
+			["Serenity"] = 1,
+			["Moon Mango"] = 1,
+			["Maple Apple"] = 1,
+			["Hive Fruit"] = 1,
+			["Lilac"] = 1,
+			["Soft Sunshine"] = 1,
 		}
 	},
  
 	Seed = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
-			Custom = {
+			Custom = { -- any fruit u need to place
 				"Carrot",
 			}
 		},
 		Place = {
 			Mode = "Lock", -- Select , Lock
 			Select = {
-				"Carrot",
-				"Tomato",
-				"Blueberry",
-				"Corn",
-				"Bamboo",
-				"Starwberry",
-				"Apple",
-				"Pumpkin",
-				"OrangeTulip",
-				"Pepper",
-				"Cactus",
-				"Watermelon",
-				"Mushroom",
-				"GiantPinecone",
+				"Carrot"
 			},
 			Lock = {
-				"Maple Apple",
-				"Sunflower",
-				"Dragon Pepper",
-				"Elephant Ears",
-				"Moon Melon",
-				"Moon Mango",
-				"Bone Blossom",
-				"Fossilight",
-				"Tranquil Bloom",
 			}
 		}
 	},
@@ -74,10 +76,12 @@ getgenv().ConfigsKaitun = {
  
 	Events = {
 		["Cook Event"] = {
-			Minimum_Money = 1_000_000, -- minimum money to start play this event
+			Minimum_Money = 30_000_000, -- minimum money to start play this event
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Bell Pepper",
+			"Feijoa",
 		},
 		Craft = {
 			"Ancient Seed Pack",
@@ -87,13 +91,9 @@ getgenv().ConfigsKaitun = {
 		Shop = {
 			"Zen Egg",
 			"Zen Seed Pack",
-			-- "Spiked Mango",
-			"Pet Shard Tranquil",
-			"Pet Shard Corrupted",
-			-- "Koi",
-			-- "Soft Sunshine",
-			-- "Sakura Bush",
-			"Raiju",
+			"Spiked Mango",
+			"Bell Pepper",
+			"Feijoa",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -150,19 +150,16 @@ getgenv().ConfigsKaitun = {
 	},
  
 	Pets = {
-		["Start Delete Pet At"] = 50,
+		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = { 5, 100, 1, true },
+				["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
-				["Tanchozuru"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
-				["Ostrich"] = { 3, 100, 2 },
-				["Blood Kiwi"] = { 8, 100 },
-				["Seal"] = { 8, 100 },
-				["Rooster"] = { 8, 100 },
-				["Starfish"] = { 5, 75 },
+				["Blood Kiwi"] = { 8, 100, 1 },
+				["Rooster"] = { 8, 100, 2 },
+				["Chicken"] = { 8, 100, 3 },
 			},
 		},
 		Favorite_LockedPet = true,
@@ -192,11 +189,8 @@ getgenv().ConfigsKaitun = {
 			"Fennec Fox",
 			"Mimic Octopus",
 			"Red Fox",
-			"Blood Kiwi",
+			"Blood Owl",
 			["Starfish"] = 10,
-			["Rooster"] = 5,
-			["Kodama"] = 10,
-			["Corrupted Kodama"] = 10,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked
 		Instant_Sell = {
