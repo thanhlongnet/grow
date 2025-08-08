@@ -1,5 +1,4 @@
 getgenv().ConfigsKaitun = {
-	["Stack Plant"] = true,
 	Beta_Fix_Data_Sync = true,
 	["Block Pet Gift"] = true,
  
