@@ -1,13 +1,13 @@
 getgenv().ConfigsKaitun = {
-	Beta_Fix_Data_Sync = false,
+	Beta_Fix_Data_Sync = true,
 
-	["Block Pet Gift"] = false,
+	["Block Pet Gift"] = true,
 
 	Collect_Cooldown = 60, -- cooldown to collect fruit
 	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
-	["Auto Rejoin"] = true,
+	["Auto Rejoin"] = false,
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
