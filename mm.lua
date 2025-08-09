@@ -27,7 +27,7 @@ return {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { "Gorilla Chef", "Lobster Thermidor", "Hotdog Daschund", "Junkbot", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 1, ["Corrupted Kodama"] = 1, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5,
-                "Squirrel" = 5, "Bagel Bunny" = 5, "Peacock" = 5, "Ostrich" = 5, "Orange Tabby" = 5, "Golden Lab" = 5, "Toucan" = 5, "Sea Turtle" = 5, "Seal" = 5, "Scarlet Macaw" = 5,},
+                ["Squirrel"] = 5, ["Bagel Bunny"] = 5, ["Peacock"] = 5, ["Ostrich"] = 5, ["Orange Tabby"] = 5, ["Golden Lab"] = 5, ["Toucan"] = 5, ["Sea Turtle"] = 5, ["Seal"] = 5, ["Scarlet Macaw"] = 5,},
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
