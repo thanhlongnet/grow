@@ -1,4 +1,4 @@
-getgenv().ConfigsKaitun = {
+return {
 	Beta_Fix_Data_Sync = true,
 	NoDeletePlayer = false,
 	["Block Pet Gift"] = true,
