@@ -8,7 +8,7 @@ return {
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
-    ADD_FRIEND = true,
+    ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
     MAX_PLANTS = 250,
