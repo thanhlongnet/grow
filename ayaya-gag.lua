@@ -166,7 +166,7 @@ return {
                                 ["Toucan"] = { 2, 100 },
                                 ["Koi"] = { 5, 75 },
                                 ["Gorilla Chef"] = { 5, 75 },
-								["French Fry Ferret"] = { 5, 75 },
+								["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
                 Favorite_LockedPet = true,
