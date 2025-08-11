@@ -1,5 +1,5 @@
 return {
-        Beta_Fix_Data_Sync = true,
+        Beta_Fix_Data_Sync = false,
 
         NoDeletePlayer = false,
 
@@ -7,7 +7,7 @@ return {
 
         Collect_Cooldown = 120,
 
-        ["Low Cpu"] = false,
+        ["Low Cpu"] = true,
         ["Auto Rejoin"] = true,
 
         ["Rejoin When Update"] = false,
