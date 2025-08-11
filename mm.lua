@@ -46,8 +46,19 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Gorilla Chef", "Lobster Thermidor", "Hotdog Daschund", "Junkbot", "Spaghetti Sloth", "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 1, ["Corrupted Kodama"] = 1, ["Blood Kiwi"] = 2, ["Capybara"] = 5, ["Starfish"] = 2, ["Chicken"] = 2, ["Rooster"] = 2, ["Tanchozuru"] = 5, ["Kappa"] = 5,
-                ["Sunny-Side Chicken"] = 10 , ["Squirrel"] = 5, ["Bagel Bunny"] = 10, ["Peacock"] = 5, ["Ostrich"] = 5, ["Orange Tabby"] = 5, ["Golden Lab"] = 5, ["Toucan"] = 5, ["Sea Turtle"] = 5, ["Seal"] = 5, ["Scarlet Macaw"] = 5},
+    KEEP_PETS = { "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+                     "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
+                     "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
+                     "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
+                     "Bear Bee", "Moth", "Moon Cat",
+                     "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
+                     "Raiju", "Spaghetti Sloth", "Corrupted Kodama",
+                     "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", "Squirrel", ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] =3 , ["Gorilla Chef"] = 5,
+                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
+                     ["Starfish"] = 8, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
+                     ["Giant Ant"] = 1, ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
+                     ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 8, ["Chicken"] = 2,
+					 ["Bagel Bunny"] = 5, ["Peacock"] = 5, ["Ostrich"] = 5, ["Orange Tabby"] = 5, ["Golden Lab"] = 2, ["Toucan"] = 5, ["Sea Turtle"] = 5, ["Scarlet Macaw"] = 5},
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
