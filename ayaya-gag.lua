@@ -98,18 +98,6 @@ return {
                                 -- u can add it more as u want, if it not in list.
                         }
                 },
-                ["Zen Event"] = {
-                        ["Restocking"] = { -- Minimumthing to restock
-                                Max_Restocks_Price = 32_000_000_000,
-                                Minimum_Money = 1_000_000,
-                                Minimum_Chi = 30
-                        },
-                        ["Doing"] = {
-                                Minimum_Money = 1_000_000, -- minimum money to start play this event
-                                First_Upgrade_Tree = 0,
-                                Maximum_Chi = 9999,
-                        }
-                },
                 ["Traveling Shop"] = {
                         "Bee Egg",
                 },
@@ -166,7 +154,7 @@ return {
                                 ["Toucan"] = { 2, 100 },
                                 ["Koi"] = { 5, 75 },
                                 ["Gorilla Chef"] = { 5, 75 },
-								["French Fry Ferret"] = { 5, 75, 3 },
+								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
                 Favorite_LockedPet = true,
