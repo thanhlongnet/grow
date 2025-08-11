@@ -7,7 +7,7 @@ return {
 
         Collect_Cooldown = 120,
 
-        ["Low Cpu"] = false,
+        ["Low Cpu"] = true,
         ["Auto Rejoin"] = true,
 
         ["Rejoin When Update"] = false,
