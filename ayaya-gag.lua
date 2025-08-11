@@ -12,8 +12,8 @@ return {
 
         ["Rejoin When Update"] = false,
         ["Limit Tree"] = {
-                ["Limit"] = 300,
-                ["Destroy Until"] = 250,
+                ["Limit"] = 200,
+                ["Destroy Until"] = 150,
 
                 ["Safe Tree"] = {
                         "Bone Blossom",
