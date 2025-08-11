@@ -147,13 +147,13 @@ return {
                         },
                         ["Limit Upgrade"] = 5, -- max is 5 (more than or lower than 1 will do nothing)
                         ["Equip When Done"] = {
-                                ["Spaghetti Sloth"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
+                                --["Spaghetti Sloth"] = { 5, 100, 1 }, -- 5 on the first mean equip only 5 | pet , 100 mean equip only level pet lower than 100 | the one on the last is priority it will ues first if possible 
                                 ["Junkbot"] = { 3, 100, 2 },
                                 ["Sunny-Side Chicken"] = { 5, 100 },
                                 ["Seal"] = { 5, 100 },
                                 ["Toucan"] = { 2, 100 },
                                 ["Koi"] = { 5, 75 },
-                                ["Gorilla Chef"] = { 5, 75 },
+                                ["Gorilla Chef"] = { 5, 75, 1 },
 								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
