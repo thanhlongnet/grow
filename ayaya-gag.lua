@@ -1,5 +1,5 @@
 return {
-        Beta_Fix_Data_Sync = false,
+        Beta_Fix_Data_Sync = true,
 
         NoDeletePlayer = false,
 
