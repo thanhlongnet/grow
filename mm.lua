@@ -2,8 +2,8 @@ return {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gourmet Egg", "Gorilla Chef", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
-    
+    CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Gorilla Chef", "Gourmet Seed Pack", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron"},
+	
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -59,8 +59,8 @@ return {
                      ["Giant Ant"] = 1, ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 5, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 5, ["Peacock"] = 5, ["Ostrich"] = 5, ["Orange Tabby"] = 5, ["Golden Lab"] = 1, ["Toucan"] = 5, ["Sea Turtle"] = 5, ["Scarlet Macaw"] = 5},
-    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
-    KEEP_PETS_AGE = { ["Starfish"] = 75 },
+    KEEP_PETS_WEIGHT = 7,
+    KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { ["Gorilla Chef"] = 1, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 1 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
