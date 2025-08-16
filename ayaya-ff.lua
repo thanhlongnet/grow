@@ -1,5 +1,5 @@
 return {
-        Beta_Fix_Data_Sync = true,
+        Beta_Fix_Data_Sync = false,
 
         NoDeletePlayer = false,
 
@@ -130,7 +130,7 @@ return {
 
         Eggs = {
                 Place = {
-                        "Sprout Egg", "Gourmet Egg",
+                        "Sprout Egg",
                 },
                 Buy = {
                         "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg",
