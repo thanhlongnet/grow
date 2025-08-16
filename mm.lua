@@ -13,8 +13,8 @@ return {
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 350,
-    DESTROY_UNTIL_MIN_PLANTS = 280,
+    MAX_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 180,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     LIMIT_PLANT_SEED = { ["Carrot"] = 4, ["Strawberry"] = 4, ["Blueberry"] = 4, ["Rose"] = 4, ["Orange Tulip"] = 4, ["Dezen"] = 4, ["Artichoke"] = 4,
        ["Onion"] = 4, ["Tomato"] = 4, ["Daffodil"] = 4, ["Cauliflower"] = 4, ["Raspberry"] = 4, ["Foxglove"] = 4, ["Corn"] = 4,
