@@ -169,12 +169,12 @@ return {
                      "Bear Bee", "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
                      "Raiju", "Spaghetti Sloth", "Corrupted Kodama", "Wasp", "Tarantula Hawk",
-                     "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", "Squirrel", ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] =3 , ["Gorilla Chef"] = 5,
+                     "Axolotl", "Echo Frog", "Hamster", ["Maneki-neko"] = 2, ["Squirrel"] = 2, ["Hotdog Daschund"] = 2, ["Sunny-Side Chicken"] =2 , ["Gorilla Chef"] = 3,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
-                     ["Starfish"] = 8, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
+                     ["Starfish"] = 3, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Giant Ant"] = 1, ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 8, ["Chicken"] = 2,
-					 ["Bagel Bunny"] = 5, ["Peacock"] = 5, ["Ostrich"] = 5, ["Orange Tabby"] = 5, ["Golden Lab"] = 2, ["Toucan"] = 5, ["Sea Turtle"] = 5, ["Scarlet Macaw"] = 5
+					 ["Bagel Bunny"] = 2, ["Peacock"] = 2, ["Ostrich"] = 2, ["Orange Tabby"] = 2, ["Golden Lab"] = 1, ["Sea Turtle"] = 2, ["Scarlet Macaw"] = 2
                 },
                 LockPet_Weight = 7, -- if Weight >= 10 they will locked
         },
