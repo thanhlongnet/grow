@@ -24,7 +24,7 @@ return {
        ["Cactus"] = 2, ["Dragon Fruit"] = 2, ["Mango"] = 2, ["Kiwi"] = 2, ["Bell Pepper"] = 2, ["Prickly Pear"] = 2, ["Pink Lily"] = 2,
        ["Purple Dahlia"] = 2, ["Tall Asparagus"] = 2, ["Sugarglaze"] = 2, ["Grape"] = 2, ["Loquat"] = 2, ["Mushroom"] = 2, ["Pepper"] = 2,
        ["Cacao"] = 2, ["Feijoa"] = 2, ["Pitcher Plant"] = 2, ["Grand Volcania"] = 2, ["Sunflower"] = 2, ["Grand Tomato"] = 2, ["Taco Fern"] = 2,
-       ["Beanstalk"] = 2, ["Ember Lily"] = 2, ["Sugar Apple"] = 2, ["Burning Bud"] = 2, ["Giant Pinecone"] = 2, ["Elder Strawberry"] = 2, ["Chocolate Carrot"] = 2,
+       ["Beanstalk"] = 10, ["Ember Lily"] = 2, ["Sugar Apple"] = 2, ["Burning Bud"] = 2, ["Giant Pinecone"] = 2, ["Elder Strawberry"] = 2, ["Chocolate Carrot"] = 2,
        ["Red Lollipop"] = 2, ["Nightshade"] = 2, ["Crocus"] = 2, ["Lavender"] = 2, ["Manuka Flower"] = 2, ["Wild Carrot"] = 2, ["Stonebite"] = 2,
        ["Candy Sunflower"] = 2, ["Peace Lily"] = 2, ["Mint"] = 2, ["Blue Lollipop"] = 2, ["Glowshroom"] = 2, ["Dandelion"] = 2, ["Nectarshade"] = 2,
        ["Succulent"] = 2, ["Bee Balm"] = 2, ["Pear"] = 2, ["Delphinium"] = 2, ["Liberty Lily"] = 2, ["Paradise Petal"] = 2, ["Cranberry"] = 2, ["Durian"] = 2,
