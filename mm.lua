@@ -35,7 +35,8 @@ return {
        ["Lily Of The Valley"] = 2, ["Firefly Fern"] = 2, ["Moon Mango"] = 2, ["Candy Blossom"] = 2, ["Cherry Blossom"] = 2, ["Lotus"] = 2, ["Venus Fly Trap"] = 2,
        ["Rosy Delight"] = 2, ["Traveler's Fruit"] = 2, ["Fossilight"] = 2, ["Tranquil Bloom"] = 2, ["Elephant Ears"] = 2, ["Bone Blossom"] = 2, ["Pink Tulip"] = 2,
        ["Noble Flower"] = 2, ["Purple Cabbage"] = 2, ["Sinisterdrip"] = 2, ["Mega Mushroom"] = 2, ["Ice Cream Bean"] = 2, ["Lime"] = 2, ["Crimson Vine"] = 2, ["Zenflare"] = 2,
-       ["Serenity"] = 2, ["Zen Rocks"] = 2, ["Hinomai"] = 2, ["Monobloom"] = 2, ["Badlands Pepper"] =2, },
+       ["Serenity"] = 2, ["Zen Rocks"] = 2, ["Hinomai"] = 2, ["Monobloom"] = 2, ["Badlands Pepper"] =2, ["Bitter Melon"] = 2, ["King Cabbage"] = 2, ["Flare Daisy"] = 2, ["Mangosteen"] = 2,
+},
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Sprout Egg",
