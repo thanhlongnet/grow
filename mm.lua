@@ -35,7 +35,7 @@ return {
        ["Lily Of The Valley"] = 2, ["Firefly Fern"] = 2, ["Moon Mango"] = 2, ["Candy Blossom"] = 2, ["Cherry Blossom"] = 2, ["Lotus"] = 2, ["Venus Fly Trap"] = 2,
        ["Rosy Delight"] = 2, ["Traveler's Fruit"] = 2, ["Fossilight"] = 2, ["Tranquil Bloom"] = 2, ["Elephant Ears"] = 2, ["Bone Blossom"] = 2, ["Pink Tulip"] = 2,
        ["Noble Flower"] = 2, ["Purple Cabbage"] = 2, ["Sinisterdrip"] = 2, ["Mega Mushroom"] = 2, ["Ice Cream Bean"] = 2, ["Lime"] = 2, ["Crimson Vine"] = 2, ["Zenflare"] = 2,
-       ["Serenity"] = 2, ["Zen Rocks"] = 2, ["Hinomai"] = 2, ["Monobloom"] = 2, },
+       ["Serenity"] = 2, ["Zen Rocks"] = 2, ["Hinomai"] = 2, ["Monobloom"] = 2, ["Badlands Pepper"] =2, },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Sprout Egg",
@@ -56,7 +56,7 @@ return {
                      "Bear Bee", "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
                      "Raiju", "Spaghetti Sloth", "Corrupted Kodama",
-                     "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] =1 , ["Gorilla Chef"] = 4,
+                     "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] = 2 , ["Gorilla Chef"] = 4,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 4, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
@@ -65,7 +65,7 @@ return {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Gorilla Chef"] = 1, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 1 },
+    EQUIP_PETS = { ["Seal"] = 1, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 1 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
