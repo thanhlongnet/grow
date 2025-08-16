@@ -58,7 +58,7 @@ return {
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 4, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
-                     ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 5, ["Chicken"] = 2,
+                     ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3},
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
