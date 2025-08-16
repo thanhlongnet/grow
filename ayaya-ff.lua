@@ -158,7 +158,7 @@ return {
                 Favorite_LockedPet = true,
                 Locked_Pet_Age = 60, -- pet that age > 60 will lock
                 Locked = {
-                     "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+                     "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
