@@ -130,7 +130,7 @@ return {
 
         Eggs = {
                 Place = {
-                        "Gourmet Egg",
+                        "Sprout Egg", "Gourmet Egg",
                 },
                 Buy = {
                         "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg",
