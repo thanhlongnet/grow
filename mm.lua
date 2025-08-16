@@ -3,6 +3,7 @@ return {
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     CLAIM_FOOD_CONNOISSEUR_REWARD = {"Culinarian Chest", "Gourmet Egg", "Gorilla Chef", "Gourmet Seed Pack", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron"},
+	FORCE_COOK_MUTATION_ONLY = true,
 	
     -- General:
     AUTO_UPDATE_RESTART = true,
