@@ -12,8 +12,8 @@ return {
 
         ["Rejoin When Update"] = false,
         ["Limit Tree"] = {
-                ["Limit"] = 350,
-                ["Destroy Until"] = 280,
+                ["Limit"] = 200,
+                ["Destroy Until"] = 180,
 
                 ["Safe Tree"] = {
                         "Bone Blossom",
@@ -90,6 +90,7 @@ return {
 			["Bean Event"] = {
 				Minimum_Money = 10_000_000, -- minimum money to start play this event
 			},
+		MaxMoney_Restocks = 10_000_000,
 			Shop = { -- delete -- to buy
 				"Sprout Seed Pack",
 				"Sprout Egg",
@@ -130,7 +131,8 @@ return {
 
         Eggs = {
                 Place = {
-                        "Sprout Egg", "Zen Egg", "Gourmet Egg", "Oasis Egg", "Night Egg", "Anti Bee Egg", "Bug Egg", "Primal Egg", "Dinosaur Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
+                        "Sprout Egg", 
+			-- "Zen Egg", "Gourmet Egg", "Oasis Egg", "Night Egg", "Anti Bee Egg", "Bug Egg", "Primal Egg", "Dinosaur Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
                 },
                 Buy = {
                         "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg",
