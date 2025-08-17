@@ -66,7 +66,7 @@ return {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Seal"] = 1, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 1 },
+    EQUIP_PETS = { ["Seal"] = 2, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
