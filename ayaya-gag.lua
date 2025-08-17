@@ -1,15 +1,10 @@
 return {
         Beta_Fix_Data_Sync = false,
-
         NoDeletePlayer = false,
-
         ["Block Pet Gift"] = true,
-
         Collect_Cooldown = 120,
-
         ["Low Cpu"] = true,
         ["Auto Rejoin"] = true,
-
         ["Rejoin When Update"] = false,
         ["Limit Tree"] = {
                 ["Limit"] = 350,
@@ -158,6 +153,7 @@ return {
 								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
+				Unfavorite_AllPet = false,
                 Favorite_LockedPet = true,
                 Locked_Pet_Age = 60, -- pet that age > 60 will lock
                 Locked = {
