@@ -57,7 +57,7 @@ return {
 				"Silver Fertilizer",
 				-- "Canary Melon",
 				-- "Amberheart",
-				"Spriggan",
+				-- "Spriggan",
 		},
                 ["Traveling Shop"] = {
                         "Bee Egg",
