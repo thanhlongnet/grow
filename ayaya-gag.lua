@@ -126,7 +126,8 @@ return {
 
         Eggs = {
                 Place = {
-                        "Sprout Egg", "Gourmet Egg", "Zen Egg", "Oasis Egg", "Night Egg", "Anti Bee Egg", "Bug Egg", "Primal Egg", "Dinosaur Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
+                        "Sprout Egg", "Gourmet Egg", "Zen Egg", "Oasis Egg", "Night Egg", "Anti Bee Egg", "Bug Egg", "Primal Egg", "Dinosaur Egg", "Paradise Egg",
+						-- "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
                 },
                 Buy = {
                         "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg",
