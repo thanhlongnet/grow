@@ -114,6 +114,7 @@ return {
                         "Level Up Lollipop",
                         "Medium Treat",
                         "Medium Toy",
+						"Trading Ticket",
                 },
                 Lock = {
                         "Master Sprinkler",
