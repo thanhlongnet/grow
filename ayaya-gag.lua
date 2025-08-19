@@ -171,7 +171,7 @@ return {
                      ["Starfish"] = 3, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Giant Ant"] = 1, ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
-					 ["Bagel Bunny"] = 2, ["Peacock"] = 5, ["Ostrich"] = 2, ["Orange Tabby"] = 2, ["Sea Turtle"] = 5, ["Scarlet Macaw"] = 2
+					 ["Bagel Bunny"] = 2, ["Peacock"] = 3, ["Ostrich"] = 2, ["Orange Tabby"] = 2, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 2
                 },
                 LockPet_Weight = 4, -- if Weight >= 10 they will locked
         },
