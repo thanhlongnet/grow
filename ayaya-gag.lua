@@ -173,7 +173,7 @@ return {
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 2, ["Peacock"] = 3, ["Ostrich"] = 2, ["Orange Tabby"] = 2, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 2
                 },
-                LockPet_Weight = 4, -- if Weight >= 10 they will locked
+                LockPet_Weight = 8, -- if Weight >= 10 they will locked
         },
 
         Webhook = {
