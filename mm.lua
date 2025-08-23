@@ -26,13 +26,13 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Griffin", "Peach Wasp", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Griffin", "Peach Wasp", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
-                     "Bear Bee", "Moth", "Moon Cat",
+                     "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
-                     "Raiju", "Spaghetti Sloth", "Corrupted Kodama", "Chicken Zombie",
+                     "Raiju", "Spaghetti Sloth", "Chicken Zombie",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] = 2 , ["Gorilla Chef"] = 4,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 4, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
