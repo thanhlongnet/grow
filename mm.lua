@@ -26,7 +26,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Griffin", "Peach Wasp", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
