@@ -32,7 +32,7 @@ return {
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Bear Bee", "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
-                     "Raiju", "Spaghetti Sloth", "Corrupted Kodama",
+                     "Raiju", "Spaghetti Sloth", "Corrupted Kodama", "Chicken Zombie",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] = 2 , ["Gorilla Chef"] = 4,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 4, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
