@@ -12,8 +12,8 @@ return {
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 250,
-		["Destroy Until"] = 200,
+		["Limit"] = 200,
+		["Destroy Until"] = 180,
 
 		["Safe Tree"] = {
             "Moon Blossom",
@@ -33,7 +33,7 @@ return {
             ["Coconut"] = 15,
             ["Dragon Fruit"] = 15,
             ["Mango"] = 15,
-            ["Tomato"] = 20,
+            ["Tomato"] = 15,
             ["Cactus"] = 15,
 		}
 	},
