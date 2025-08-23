@@ -1,10 +1,10 @@
 return {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
+    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 500_000_001,  -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
-	PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome" },
+    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
 	
     -- General:
     AUTO_UPDATE_RESTART = true,
