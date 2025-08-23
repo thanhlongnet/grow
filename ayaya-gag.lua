@@ -88,7 +88,7 @@ return {
 			"Pet Shard GiantBean",
 		},
 		["Traveling Shop"] = {
-			"Bee Egg",
+			"Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant"
 		},
 		Craft = {
 			"Anti Bee Egg",
