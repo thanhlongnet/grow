@@ -160,7 +160,7 @@ return {
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Bear Bee", "Moth", "Moon Cat",
-                     "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
+                     "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl", "Chicken Zombie",
                      "Raiju", ["Spaghetti Sloth"] =4, "Corrupted Kodama", "Wasp", "Tarantula Hawk",
                      "Axolotl", "Echo Frog", "Hamster", ["Maneki-neko"] = 2, ["Squirrel"] = 2, ["Hotdog Daschund"] = 2, ["Sunny-Side Chicken"] =2 , ["Gorilla Chef"] = 3,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 2, ["Flamingo"] = 5, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
