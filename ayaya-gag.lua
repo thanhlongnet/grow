@@ -17,13 +17,8 @@ return {
 
 		["Safe Tree"] = {
             "Moon Blossom",
-            "Bone Blossom",
-            "Moon Melon",
             "Maple Apple",
-            "Moon Mango",
             "Dragon Pepper",
-            "Elephant Ears",
-            "Fossilight",
             "Princess Thorn",
 			"Cyclamen",
 			-- for the event
