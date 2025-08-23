@@ -131,7 +131,7 @@ return {
 
         Pets = {
 				["Auto Feed"] = true,
-                ["Start Delete Pet At"] = 50,
+                ["Start Delete Pet At"] = 55,
                 ["Upgrade Slot"] = {
                         ["Pet"] = {
                                 ["Starfish"] = { 5, 100, 1, true }, -- the "true" on the last is auto equip (use for like only need to use for upgrade pet)
