@@ -146,7 +146,7 @@ return {
 								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
-				Unfavorite_AllPet = false,
+				Unfavorite_AllPet = true,
                 Favorite_LockedPet = true,
                 Locked_Pet_Age = 60, -- pet that age > 60 will lock
                 Locked = {
