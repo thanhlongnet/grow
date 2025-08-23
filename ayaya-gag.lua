@@ -166,7 +166,7 @@ return {
                 },
 				Unfavorite_AllPet = false,
                 Favorite_LockedPet = true,
-                Locked_Pet_Age = 60, -- pet that age > 60 will lock
+                Locked_Pet_Age = 75, -- pet that age > 60 will lock
                 Locked = {
                      "Griffin", "Peach Wasp", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
