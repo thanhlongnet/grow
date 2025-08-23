@@ -146,11 +146,11 @@ return {
 								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
-				Unfavorite_AllPet = true,
+				Unfavorite_AllPet = false,
                 Favorite_LockedPet = true,
                 Locked_Pet_Age = 60, -- pet that age > 60 will lock
                 Locked = {
-                     "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+                     "Lemon Lion", "Golden Goose", "Golem", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
