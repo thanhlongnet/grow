@@ -25,6 +25,7 @@ return {
             "Elephant Ears",
             "Fossilight",
             "Princess Thorn",
+			"Cyclamen",
 			-- for the event
             ["Blueberry"] = 15,
             ["Strawberry"] = 15,
