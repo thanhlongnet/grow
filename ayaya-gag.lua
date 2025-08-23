@@ -1,79 +1,67 @@
 return {
-        Beta_Fix_Data_Sync = false,
-        NoDeletePlayer = false,
-        ["Block Pet Gift"] = true,
-        Collect_Cooldown = 120,
-        ["Low Cpu"] = true,
-        ["Auto Rejoin"] = true,
-        ["Rejoin When Update"] = false,
-        ["Limit Tree"] = {
-                ["Limit"] = 250,
-                ["Destroy Until"] = 200,
+	Beta_Fix_Data_Sync = true,
 
-                ["Safe Tree"] = {
-                        "Bone Blossom",
-                        "Elephant Ears",
-                        "Tranquil Bloom",
-                        "Elder Strawberry",
-                        "Giant Pinecone",
-                        "Burning Bud",
-                        "Sugar Apple",
-                        "Ember Lily",
-                        "Beanstalk",
-                        "Candy Blossom",
-                        "Moon Blossom",
-                        "Hive Fruit",
-                        "Dragon Pepper",
-                        "Rosy Delight",
-                        "Fossilight",
-                        "Pitcher Plant",
-                        "Sunflower",
-                        "Maple Apple",
-                        "Nectarine",
-                        "Taco Fern",
-                        "Grand Tomato",
-                        "King Cabbage",
-                        "Badlands Pepper",
-       ["Carrot"] = 3, ["Strawberry"] = 3, ["Blueberry"] = 3, ["Rose"] = 3, ["Orange Tulip"] = 3, ["Dezen"] = 3, ["Artichoke"] = 3,
-       ["Onion"] = 3, ["Tomato"] = 3, ["Daffodil"] = 3, ["Cauliflower"] = 3, ["Raspberry"] = 3, ["Foxglove"] = 3, ["Corn"] = 3,
-       ["Horsetail"] = 3, ["Twisted Tangle"] = 3, ["Jalapeno"] = 3, ["Watermelon"] = 3, ["Pumpkin"] = 3, ["Avocado"] = 3, ["Green Apple"] = 3,
-       ["Apple"] = 3, ["Banana"] = 3, ["Lilac"] = 3, ["Taro Flower"] = 3, ["Bamboo"] = 3, ["Rafflesia"] = 3, ["Lingonberry"] = 3,
-       ["Lucky Bamboo"] = 3, ["Veinpetal"] = 3, ["Crown Melon"] = 3, ["Peach"] = 3, ["Pineapple"] = 3, ["Amber Spine"] = 3, ["Coconut"] = 3,
-       ["Cactus"] = 3, ["Dragon Fruit"] = 3, ["Mango"] = 3, ["Kiwi"] = 3, ["Bell Pepper"] = 3, ["Prickly Pear"] = 3, ["Pink Lily"] = 3,
-       ["Purple Dahlia"] = 3, ["Tall Asparagus"] = 3, ["Sugarglaze"] = 3, ["Grape"] = 3, ["Loquat"] = 3, ["Mushroom"] = 3, ["Pepper"] = 3,
-       ["Cacao"] = 3, ["Feijoa"] = 3, ["Pitcher Plant"] = 3, ["Grand Volcania"] = 3, ["Sunflower"] = 3, ["Grand Tomato"] = 3, ["Taco Fern"] = 3,
-       ["Beanstalk"] = 3, ["Ember Lily"] = 3, ["Sugar Apple"] = 3, ["Burning Bud"] = 3, ["Giant Pinecone"] = 3, ["Elder Strawberry"] = 3, ["Chocolate Carrot"] = 3,
-       ["Red Lollipop"] = 3, ["Nightshade"] = 3, ["Crocus"] = 3, ["Lavender"] = 3, ["Manuka Flower"] = 3, ["Wild Carrot"] = 3, ["Stonebite"] = 3,
-       ["Candy Sunflower"] = 3, ["Peace Lily"] = 3, ["Mint"] = 3, ["Blue Lollipop"] = 3, ["Glowshroom"] = 3, ["Dandelion"] = 3, ["Nectarshade"] = 3,
-       ["Succulent"] = 3, ["Bee Balm"] = 3, ["Pear"] = 3, ["Delphinium"] = 3, ["Liberty Lily"] = 3, ["Paradise Petal"] = 3, ["Cranberry"] = 3, ["Durian"] = 3,
-       ["Papaya"] = 3, ["Moonflower"] = 3, ["Starfruit"] = 3, ["Lumira"] = 3, ["Violet Corn"] = 3, ["Nectar Thorn"] = 3, ["Cantaloupe"] = 3, ["Aloe Vera"] = 3,
-       ["Firework Flower"] = 3, ["White Mulberry"] = 3, ["Dragon Sapling"] = 3, ["Horned Dinoshroom"] = 3, ["Boneboo"] = 3, ["Fruitball"] = 3, ["Enkaku"] = 3,
-       ["Sakura Bush"] = 3, ["Easter Egg"] = 3, ["Eggplant"] = 3, ["Passionfruit"] = 3, ["Lemon"] = 3, ["Moonglow"] = 3, ["Moon Melon"] = 3, ["Blood Banana"] = 3,
-       ["Celestiberry"] = 3, ["Guanabana"] = 3, ["Nectarine"] = 3, ["Honeysuckle"] = 3, ["Suncoil"] = 3, ["Bendboo"] = 3, ["Cocovine"] = 3, ["Parasol Flower"] = 3,
-       ["Lily Of The Valley"] = 3, ["Firefly Fern"] = 3, ["Moon Mango"] = 3, ["Candy Blossom"] = 3, ["Cherry Blossom"] = 3, ["Lotus"] = 3, ["Venus Fly Trap"] = 3,
-       ["Rosy Delight"] = 3, ["Traveler's Fruit"] = 3, ["Fossilight"] = 3, ["Tranquil Bloom"] = 3, ["Elephant Ears"] = 3, ["Bone Blossom"] = 3, ["Pink Tulip"] = 3,
-       ["Noble Flower"] = 3, ["Purple Cabbage"] = 3, ["Sinisterdrip"] = 3, ["Mega Mushroom"] = 3, ["Ice Cream Bean"] = 3, ["Lime"] = 3, ["Crimson Vine"] = 3, ["Zenflare"] = 3,
-       ["Serenity"] = 3, ["Zen Rocks"] = 3, ["Hinomai"] = 3, ["Monobloom"] = 3,
-                }
-        },
+	NoDeletePlayer = false,
 
-        Seed = {
-                Buy = {
-                        Mode = "Auto", -- Custom , Auto
-                        Custom = { -- any fruit u need to place
-                                "Carrot",
-                        }
-                },
-                Place = {
-                        Mode = "Lock", -- Select , Lock
-                        Select = {
-                                "Carrot"
-                        },
-                        Lock = {
-                                "Bone Blossom",
-                        }
-                }
-        },
+	["Block Pet Gift"] = true,
+
+	Collect_Cooldown = 120, -- cooldown to collect fruit
+
+	["Low Cpu"] = true,
+	["Auto Rejoin"] = true,
+
+	["Rejoin When Update"] = false,
+	["Limit Tree"] = {
+		["Limit"] = 250,
+		["Destroy Until"] = 200,
+
+		["Safe Tree"] = {
+            "Moon Blossom",
+            "Bone Blossom",
+            "Moon Melon",
+            "Maple Apple",
+            "Moon Mango",
+            "Dragon Pepper",
+            "Elephant Ears",
+            "Fossilight",
+            "Princess Thorn",
+			-- for the event
+            ["Blueberry"] = 15,
+            ["Strawberry"] = 15,
+            ["Apple"] = 15,
+            ["Coconut"] = 15,
+            ["Dragon Fruit"] = 15,
+            ["Mango"] = 15,
+            ["Tomato"] = 20,
+            ["Cactus"] = 15,
+		}
+	},
+
+	Seed = {
+		Buy = {
+			Mode = "Auto", -- Custom , Auto
+			Custom = { -- any fruit u need to place
+				"Carrot",
+			}
+		},
+		Place = {
+			Mode = "Lock", -- Select , Lock
+			Select = {
+				"Carrot"
+			},
+			Lock = {
+				"Maple Apple",
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+				"Moon Melon",
+				"Easter Egg",
+				"Moon Mango",
+				"Bone Blossom",
+				"Fossilight",
+			}
+		}
+	},
 
         ["Seed Pack"] = {
                 Locked = {
@@ -81,28 +69,30 @@ return {
                 }
         },
 
-        Events = {
-			["Bean Event"] = {
-				Minimum_Money = 10_000_000, -- minimum money to start play this event
-			},
-			MaxMoney_Restocks = 500_000_000_001,
-			Shop = { -- delete -- to buy
-				"Sprout Seed Pack",
-				"Sprout Egg",
-				-- "Mandrake",
-				"Silver Fertilizer",
-				-- "Canary Melon",
-				-- "Amberheart",
-				-- "Spriggan",
+	Events = {
+		["Bean Event"] = {
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
 		},
-                ["Traveling Shop"] = {
-                        "Bee Egg",
-                },
-                Craft = {
-                        "Anti Bee Egg",
-                },
-                Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
-        },
+		MaxMoney_Restocks 500_000_000_000,
+		Shop = { -- un comment to buy
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			-- "Mandrake",
+			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
+			["Spriggan"] = 8,
+		},
+		["Traveling Shop"] = {
+			"Bee Egg",
+		},
+		Craft = {
+			"Anti Bee Egg",
+			"Pet Shard GiantBean",
+			"Sprout Egg",
+		},
+		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
+	},
 
         Gear = {
                 Buy = { 
@@ -136,6 +126,7 @@ return {
         },
 
         Pets = {
+				["Auto Feed"] = true,
                 ["Start Delete Pet At"] = 50,
                 ["Upgrade Slot"] = {
                         ["Pet"] = {
