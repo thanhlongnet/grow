@@ -272,11 +272,7 @@ return {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Sunny-Side Chicken"] = {
-					2,
-					100,
-					2
-				},
+				["Sunny-Side Chicken"] = {2,100,2},
 				["Seal"] = {
 					8,
 					100,
@@ -308,7 +304,7 @@ return {
 			},
 		},
 		Unfavorite_AllPet = true,
-		Favorite_LockedPet = true,
+		Favorite_LockedPet = false,
 		Locked_Pet_Age = 75,
 		Locked = {
 			"Griffin",
