@@ -190,9 +190,9 @@ return {
 	},
 	Events = {
 		["Bean Event"] = {
-			Minimum_Money = 10000000,
+			Minimum_Money = 10_000_000,
 		},
-		MaxMoney_Restocks = 500000000000,
+		MaxMoney_Restocks = 500_000_000_001,
 		Shop = {
 			"Sprout Seed Pack",
 			"Sprout Egg",
@@ -212,7 +212,7 @@ return {
 			"Pet Shard GiantBean",
 			"Sprout Egg",
 		},
-		Start_Do_Honey = 2000000
+		Start_Do_Honey = 2_000_000
 	},
 	Gear = {
 		Buy = {
