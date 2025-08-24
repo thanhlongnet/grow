@@ -196,7 +196,7 @@ return {
    "Bacon Pig",
    "Crab",
    "Hotdog Daschund",
-  }
+  },
         Webhook = {
                 UrlPet = "",
                 UrlSeed = "xxx",
