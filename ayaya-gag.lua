@@ -273,34 +273,12 @@ return {
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				["Sunny-Side Chicken"] = {2,100,2},
-				["Seal"] = {
-					8,
-					100,
-					1
-				},
-				["Koi"] = {
-					8,
-					100,
-					3
-				},
-				["Peach Wasp"] = {
-					1,
-					100,
-					5
-				},
-				["Green Bean"] = {
-					1,
-					100,
-					4
-				},
-				["Wasp"] = {
-					1,
-					100
-				},
-				["Tarantula Hawk"] = {
-					1,
-					100
-				},
+				["Seal"] = {8,100,1},
+				["Koi"] = {8,100,3},
+				["Peach Wasp"] = {1,100,5},
+				["Green Bean"] = {1,100,4},
+				["Wasp"] = {1,100},
+				["Tarantula Hawk"] = {1,100},
 			},
 		},
 		Unfavorite_AllPet = true,
