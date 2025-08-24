@@ -174,8 +174,8 @@ return {
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl", "Chicken Zombie",
-                     "Raiju", ["Spaghetti Sloth"] =4, "Wasp", "Tarantula Hawk",
-                     "Axolotl", "Echo Frog", "Hamster", ["Maneki-neko"] = 2, ["Squirrel"] = 2, ["Hotdog Daschund"] = 2, ["Sunny-Side Chicken"] =2 , ["Gorilla Chef"] = 3,
+                     "Raiju", ["Spaghetti Sloth"] = 4, "Wasp", "Tarantula Hawk",
+                     "Axolotl", "Echo Frog", "Hamster", ["Maneki-neko"] = 2, ["Squirrel"] = 2, ["Hotdog Daschund"] = 2, ["Sunny-Side Chicken"] = 2 , ["Gorilla Chef"] = 3,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 2, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 3, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 1,
@@ -184,7 +184,19 @@ return {
                 },
                 LockPet_Weight = 8, -- if Weight >= 10 they will locked
         },
-
+  Instant_Sell = {
+   "Flamingo",
+   "Toucan",
+   "Orangutan",
+   "Bagel Bunny",
+   "Seagull",
+   "Caterpillar",
+   "Corrupted Kodama",
+   "Golem",
+   "Bacon Pig",
+   "Crab",
+   "Hotdog Daschund",
+  }
         Webhook = {
                 UrlPet = "",
                 UrlSeed = "xxx",
