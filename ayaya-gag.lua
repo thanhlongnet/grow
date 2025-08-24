@@ -164,7 +164,7 @@ return {
 								--["French Fry Ferret"] = { 5, 75, 3 },
                         },
                 },
-				Unfavorite_AllPet = false,
+				Unfavorite_AllPet = true,
                 Favorite_LockedPet = true,
                 Locked_Pet_Age = 75, -- pet that age > 60 will lock
                 Locked = {
@@ -176,7 +176,7 @@ return {
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl", "Chicken Zombie",
                      "Raiju", ["Spaghetti Sloth"] =4, "Wasp", "Tarantula Hawk",
                      "Axolotl", "Echo Frog", "Hamster", ["Maneki-neko"] = 2, ["Squirrel"] = 2, ["Hotdog Daschund"] = 2, ["Sunny-Side Chicken"] =2 , ["Gorilla Chef"] = 3,
-                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 2, ["Flamingo"] = 5, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
+                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 2, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 3, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 1,
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 2, ["Chicken"] = 2,
