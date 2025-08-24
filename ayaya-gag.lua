@@ -263,12 +263,7 @@ return {
 		["Start Delete Pet At"] = 55,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = {
-					5,
-					100,
-					1,
-					true
-				},
+				["Starfish"] = {5,100,1,true},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
