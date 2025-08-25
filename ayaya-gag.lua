@@ -276,8 +276,8 @@ return {
 				["Tarantula Hawk"] = {1,100},
 			},
 		},
-		Unfavorite_AllPet = true,
-		Favorite_LockedPet = false,
+		Unfavorite_AllPet = false,
+		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
 			"Griffin",
