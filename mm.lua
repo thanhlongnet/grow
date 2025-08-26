@@ -5,6 +5,7 @@ return {
     MAX_EVENT_RESTOCK_SHECKLES = 500_000_001,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+	PLACE_COSMETIC = { "Cooking Kit" },
 	
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -57,4 +58,7 @@ return {
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
     SHOW_WEBHOOK_JOBID = false,
+	KICK_AFTER_GIFT_PET = false,
+    GIFT_USERNAME = {},
+    GIFT_PET = {},
 }
