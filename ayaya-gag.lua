@@ -352,6 +352,7 @@ return {
 			"Flamingo",
 			"Toucan",
 			"Orangutan",
+			"Dairy Cow",
 			"Bagel Bunny",
 			"Seagull",
 			"Caterpillar",
