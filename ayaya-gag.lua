@@ -267,6 +267,7 @@ return {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
+				["Peach Wasp"] = {2,100,1},
 				["Sunny-Side Chicken"] = {2,100,5},
 				["Seal"] = {8,100,4},
 				["Koi"] = {8,100,3},
