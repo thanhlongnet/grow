@@ -33,9 +33,9 @@ return {
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
-                     "Raiju", "Spaghetti Sloth", "Chicken Zombie",
+                     "Raiju", "Spaghetti Sloth", "Chicken Zombie", "Wasp", "Peach Wasp", "Tarantula Hawk",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Hotdog Daschund"] = 3, ["Sunny-Side Chicken"] = 2 , ["Gorilla Chef"] = 4,
-                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, ["Koi"] = 1, ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
+                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, "Koi", ["Flamingo"] = 1, ["Bacon Pig"] = 1, ["Junkbot"] = 1,
                      ["Starfish"] = 4, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 1, ["Red Giant Ant"] = 1,
                      ["Toucan"] = 1, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
@@ -43,7 +43,7 @@ return {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Seal"] = 2, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 2 },
+    EQUIP_PETS = { ["Wasp"] = 2, ["Peach Wasp"] = 1, ["Tarantula Hawk"] = 2, ["Seal"] = 2, ["Spaghetti Sloth"] = 2, ["Capybara"] = 1, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
