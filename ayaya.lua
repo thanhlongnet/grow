@@ -3,7 +3,7 @@ return {
 	NoDeletePlayer = false,
 	["Block Pet Gift"] = true,
 	Collect_Cooldown = 120,
-	["Low Cpu"] = true,
+	["Low Cpu"] = false,
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
