@@ -351,6 +351,7 @@ return {
 		},
 		LockPet_Weight = 8,
 		Instant_Sell = {
+			"Jackalope",
 			"Flamingo",
 			"Toucan",
 			"Orangutan",
