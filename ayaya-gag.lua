@@ -83,6 +83,26 @@ return {
 	Events = {
 		["Fairy Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
+			Rewards_Item = {
+				"FairyPoints",
+				"Enchanted Egg",
+				"Enchanted Seed Pack",
+			},
+			Upgrade = {
+				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
+				Order = { -- top upgrade first, not put mean not upgrade
+					"Fairy Spawn Amount",
+					"Loose Fairy Spawn Amount",
+					"Glimmer Multiplier",
+					"Fairy Event Duration",
+				},
+				Limit = {
+					["Glimmer Multiplier"] = 5, -- max 10
+					["Loose Fairy Spawn Amount"] = 4, -- max 4
+					["Fairy Event Duration"] = 5, -- max 10
+					["Fairy Spawn Amount"] = 9, -- max 9
+				}
+			}
 		},
 		MaxMoney_Restocks = 500_000_001,
 		Shop = { -- un comment to buy
