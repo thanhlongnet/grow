@@ -31,7 +31,7 @@ return {
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
-                     "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl", "Pterodactyl",
+                     "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
                      "Raiju", "Spaghetti Sloth", "Chicken Zombie", "Wasp", "Peach Wasp", "Tarantula Hawk", "Bee",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 4,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
@@ -39,7 +39,7 @@ return {
                      "Praying Mantis",
                      ["Toucan"] = 2, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3},
-    KEEP_PETS_WEIGHT = 7,
+    KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { ["Wasp"] = 2, ["Peach Wasp"] = 1, ["Tarantula Hawk"] = 2, ["Seal"] = 2, ["Starfish"] = 1, ["French Fry Ferret"] = 1, ["Sunny-Side Chicken"] = 2 },
