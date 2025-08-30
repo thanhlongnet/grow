@@ -370,6 +370,8 @@ return {
 			"Crab",
 			"Hotdog Daschund",
 			"Elk",
+			"Bunny",
+			"Dog",
 			},
 	},
 	Webhook = {
