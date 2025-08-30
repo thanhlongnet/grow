@@ -281,6 +281,9 @@ return {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
+			"Cockatrice",
+			"Glimmering Sprite",
+			["Imp"] = 2,
 			"Bee",
 			"Griffin",
 			"Peach Wasp",
@@ -315,7 +318,7 @@ return {
 			"Pterodactyl",
 			"Chicken Zombie",
 			"Raiju",
-			["Spaghetti Sloth"] = 4,
+			["Spaghetti Sloth"] = 3,
 			"Wasp",
 			"Tarantula Hawk",
 			"Axolotl",
