@@ -92,7 +92,7 @@ return {
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			["Spriggan"] = 8,
+			--["Spriggan"] = 8,
 			-- Friend Shop
 			"Skyroot Chest",
 			"Pet Shard GiantBean",
