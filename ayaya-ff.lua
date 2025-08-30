@@ -131,6 +131,7 @@ return {
 			"Enchanted Egg",
 			"Paradise Egg",
 			"Anti Bee Egg",
+			"Bug Egg",
 		},
 		Buy = {
 			"Bug Egg",
