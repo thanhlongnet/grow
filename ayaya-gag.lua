@@ -232,7 +232,7 @@ return {
 			["Kodama"] = 2,
 			["Kappa"] = 1,
 			["Tanchozuru"] = 2,
-			["Praying Mantis"] = 1,
+			["Praying Mantis"] = 5,
 			["Toucan"] = 1,
 			["Capybara"] = 2,
 			["Rooster"] = 2,
