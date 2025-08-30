@@ -235,6 +235,7 @@ return {
 	},
 	Eggs = {
 		Place = {
+			"Enchanted Egg",
 			"Sprout Egg",
 			"Rare Summer Egg",
 			"Paradise Egg",
