@@ -290,6 +290,7 @@ return {
 			"Bunny",
 			"Dog",
 			"Cow",
+			"Sea Otter",
 			},
 	},
 	Webhook = {
