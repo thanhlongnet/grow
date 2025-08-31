@@ -7,8 +7,8 @@ return {
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Until"] = 300,
+		["Limit"] = 400,
+		["Destroy Until"] = 400,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -21,34 +21,34 @@ return {
 			"Fossilight",
 			"Princess Thorn",
 			-- for the event
-			Bamboo = 2,
-			Coconut = 2,
-			Mushroom = 2,
-			Glowthorn = 2,
-			Tomato = 2,
-			Pumpkin = 2,
-			Pepper = 2,
-			Cacao = 2,
-			Apple = 2,
-			Romanesco = 2,
-			["Elder Strawberry"] = 2,
-			["Burning Bud"] = 2,
-			["Giant Pinecone"] = 2,
-			Corn = 2,
-			["Sugar Apple"] = 2,
-			["Ember Lily"] = 2,
-			["Dragon Fruit"] = 2,
-			Sunbulb = 2,
-			["Orange Tulip"] = 2,
-			Blueberry = 2,
-			Watermelon = 2,
-			Mango = 2,
-			Cactus = 2,
-			Strawberry = 2,
-			Beanstalk = 2,
-			Lightshoot = 2,
-			Grape = 2,
-			Daffodil = 2
+			Bamboo = 4,
+			Coconut = 4,
+			Mushroom = 4,
+			Glowthorn = 4,
+			Tomato = 4,
+			Pumpkin = 4,
+			Pepper = 4,
+			Cacao = 4,
+			Apple = 4,
+			Romanesco = 4,
+			["Elder Strawberry"] = 4,
+			["Burning Bud"] = 4,
+			["Giant Pinecone"] = 4,
+			Corn = 4,
+			["Sugar Apple"] = 4,
+			["Ember Lily"] = 4,
+			["Dragon Fruit"] = 4,
+			Sunbulb = 4,
+			["Orange Tulip"] = 4,
+			Blueberry = 4,
+			Watermelon = 4,
+			Mango = 4,
+			Cactus = 4,
+			Strawberry = 4,
+			Beanstalk = 4,
+			Lightshoot = 4,
+			Grape = 4,
+			Daffodil = 4,
 		}
 	},
 	Seed = {
@@ -80,11 +80,15 @@ return {
 		Locked = {
 		}
 	},
+	Events = {
 		["Fairy Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
-			Rewards_Item = {
-				"FairyPoints",
+			Rewards_Item = { -- top mean select first
+				"Pet Shard Glimmering",
 				"Enchanted Egg",
+				"Mutation Spray Glimmering",
+				"FairyPoints",
+				"Fairy Targeter",
 				"Enchanted Seed Pack",
 			},
 			Upgrade = {
@@ -149,6 +153,7 @@ return {
 		Place = {
 			"Enchanted Egg",
 			"Paradise Egg",
+			"Night Egg",
 			"Anti Bee Egg",
 			"Bug Egg",
 		},
@@ -156,7 +161,11 @@ return {
 			"Bug Egg",
 			"Bee Egg",
 			"Paradise Egg",
+			"Legendary Egg",
 			"Mythical Egg",
+			"Rare Summer Egg",
+			"Common Summer Egg",
+			"Rare Egg",
 		}
 	},
 	Pets = {
@@ -164,14 +173,14 @@ return {
 		["Start Delete Pet At"] = 55,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = {5,100,1,true},
+				["Starfish"] = {2,100,1,true},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				["Peach Wasp"] = {1,100,1},
 				["Sunny-Side Chicken"] = {1,100,2},
 				["Seal"] = {1,100,2},
-				["Koi"] = {1,100,2},
+				--["Koi"] = {1,100,2},
 				--["Green Bean"] = {1,100,7},
 				["Wasp"] = {2,100,1},
 				["Tarantula Hawk"] = {2,100,1},
@@ -239,7 +248,7 @@ return {
 			["Kodama"] = 2,
 			["Kappa"] = 1,
 			["Tanchozuru"] = 2,
-			["Praying Mantis"] = 1,
+			["Praying Mantis"] = 5,
 			["Toucan"] = 1,
 			["Capybara"] = 2,
 			["Rooster"] = 2,
