@@ -183,15 +183,13 @@ return {
 		["Start Delete Pet At"] = 55,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Starfish"] = {2,100,1,true},
+				["Starfish"] = {1,100,1,true},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				["Peach Wasp"] = {1,100,1},
 				["Sunny-Side Chicken"] = {1,100,2},
 				["Seal"] = {1,100,2},
-				--["Koi"] = {1,100,2},
-				--["Green Bean"] = {1,100,7},
 				["Wasp"] = {2,100,1},
 				["Tarantula Hawk"] = {2,100,1},
 				["Bee"] = {2,100,1},
