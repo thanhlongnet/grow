@@ -268,7 +268,8 @@ return {
 			["Ostrich"] = 2,
 			["Orange Tabby"] = 2,
 			["Sea Turtle"] = 3,
-			["Scarlet Macaw"] = 2
+			["Scarlet Macaw"] = 2,
+			["Turtle"] = 6,
 		},
 		LockPet_Weight = 8,
 		Instant_Sell = {
