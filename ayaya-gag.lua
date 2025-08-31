@@ -190,7 +190,7 @@ return {
 				["Peach Wasp"] = {1,100,1},
 				["Sunny-Side Chicken"] = {1,100,2},
 				["Seal"] = {1,100,2},
-				["Koi"] = {1,100,2},
+				--["Koi"] = {1,100,2},
 				--["Green Bean"] = {1,100,7},
 				["Wasp"] = {2,100,1},
 				["Tarantula Hawk"] = {2,100,1},
