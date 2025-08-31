@@ -38,7 +38,7 @@ return {
                      ["Starfish"] = 2, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      "Praying Mantis",
                      ["Toucan"] = 2, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
-					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3},
+					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2},
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
 
