@@ -292,6 +292,7 @@ return {
 			"Cow",
 			"Sea Otter",
 			"Silver Monkey",
+			"Spotted Deer",
 			},
 	},
 	Webhook = {
