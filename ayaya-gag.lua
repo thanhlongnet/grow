@@ -270,6 +270,7 @@ return {
 			["Sea Turtle"] = 3,
 			["Scarlet Macaw"] = 2,
 			["Turtle"] = 6,
+			["Monkey"] = 6,
 		},
 		LockPet_Weight = 8,
 		Instant_Sell = {
