@@ -289,6 +289,7 @@ return {
 			"Elk",
 			"Bunny",
 			"Dog",
+			"Cow",
 			},
 	},
 	Webhook = {
