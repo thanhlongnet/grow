@@ -184,7 +184,7 @@ return {
 		Locked = {
 			"Cockatrice",
 			"Glimmering Sprite",
-			["Imp"] = 2,
+			"Imp",
 			"Bee",
 			"Griffin",
 			"Peach Wasp",
