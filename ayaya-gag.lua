@@ -7,8 +7,8 @@ return {
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 400,
-		["Destroy Until"] = 400,
+		["Limit"] = 300,
+		["Destroy Until"] = 300,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
