@@ -299,6 +299,7 @@ return {
 			"Ladybug",
 			"Orange Tabby",
 			"Giant Ant",
+			"Pixie",
 			},
 	},
 	Webhook = {
