@@ -151,6 +151,7 @@ return {
 	},
 	Eggs = {
 		Place = {
+			"Anti Bee Egg",
 			"Enchanted Egg",
 			"Sprout Egg",
 			"Legendary Egg",
@@ -161,7 +162,6 @@ return {
 			"Zen Egg",
 			"Oasis Egg",
 			"Night Egg",
-			"Anti Bee Egg",
 			"Bug Egg",
 			"Primal Egg",
 			"Dinosaur Egg",
