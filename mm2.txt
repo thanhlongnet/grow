@@ -112,8 +112,8 @@ local CrateRemote: any = ReplicatedStorage.Remotes.Shop.OpenCrate
 local DataSync: any = require(ReplicatedStorage.Database.Sync)
 
 getgenv().Config = {
-    WEBHOOK_URL = "",
-    WEBHOOK_NOTE = ""
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1413221012711149799/jKNYJpcTQb3bgPdSToYSlwbl54unG81AuWEZyCLl-2q4jPtTULAD7ytSD_sSmjEvE6U9",
+    WEBHOOK_NOTE = "MM2 PC"
 }
 local Config = getgenv().Config
 local module = {}
