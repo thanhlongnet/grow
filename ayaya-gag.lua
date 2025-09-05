@@ -155,6 +155,7 @@ return {
 			"Enchanted Egg",
 			"Sprout Egg",
 			"Legendary Egg",
+			"Rare Egg",
 			--"Rare Summer Egg",
 			"Paradise Egg",
 			"Gourmet Egg",
@@ -165,7 +166,6 @@ return {
 			"Bug Egg",
 			"Primal Egg",
 			"Dinosaur Egg",
-			--"Rare Egg",
 		},
 		Buy = {
 			"Bug Egg",
@@ -189,7 +189,7 @@ return {
 			["Equip When Done"] = {
 				["Peach Wasp"] = {1,100,1},
 				["Glimmering Sprite"] = {1,100,1},
-				-- ["Seal"] = {1,100,2},
+				["Rooster"] = {2,100,2},
 				["Wasp"] = {2,100,1},
 				["Tarantula Hawk"] = {2,100,1},
 				["Bee"] = {2,100,1},
