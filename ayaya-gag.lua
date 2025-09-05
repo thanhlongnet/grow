@@ -187,7 +187,6 @@ return {
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
-				["Griffin"] = {1,100,2},
 				["Peach Wasp"] = {1,100,1},
 				["Glimmering Sprite"] = {1,100,1},
 				["Rooster"] = {2,100,2},
