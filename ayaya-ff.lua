@@ -192,7 +192,6 @@ return {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
-			["Rooster"] = 2,
 			"Cockatrice",
 			"Glimmering Sprite",
 			"Imp",
