@@ -201,7 +201,6 @@ return {
 		Locked = {
 			"Cockatrice",
 			"Glimmering Sprite",
-			["Imp"] = 5,
 			"Bee",
 			"Griffin",
 			"Peach Wasp",
@@ -274,6 +273,7 @@ return {
 		},
 		LockPet_Weight = 8,
 		Instant_Sell = {
+			"Imp",
 			"Mandrake",
 			"Jackalope",
 			"Flamingo",
