@@ -41,7 +41,7 @@ return {
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Glimmering Sprite"] = 8, ["Rooster"] = 8, ["Tarantula Hawk"] = 5, ["Wasp"] = 5, ["Shroomie"] = 3},
+    EQUIP_PETS = { ["Glimmering Sprite"] = 8, ["Rooster"] = 8, ["Tarantula Hawk"] = 5, ["Wasp"] = 5},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
