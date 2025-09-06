@@ -164,9 +164,9 @@ return {
 	},
 	Eggs = {
 		Place = {
+			"Anti Bee Egg",
 			"Rare Egg",
 			"Common Summer Egg",
-			"Anti Bee Egg",
 			"Enchanted Egg",
 			"Sprout Egg",
 			--"Legendary Egg",
