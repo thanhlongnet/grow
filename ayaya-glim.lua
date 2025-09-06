@@ -101,29 +101,40 @@ return {
 				},
 				Limit = {
 					["Glimmer Multiplier"] = 5, -- max 10
-					["Loose Fairy Spawn Amount"] = 4, -- max 4
+					["Loose Fairy Spawn Amount"] = 10, -- max 10
 					["Fairy Event Duration"] = 5, -- max 10
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
 			}
 		},
-		MaxMoney_Restocks = 10_000_000,
+		MaxMoney_Restocks = 500_000_000,
 		Shop = { -- un comment to buy
+			"Pet Shard Glimmering",
+			"Enchanted Egg",
+			"Enchanted Seed Pack",
+			-- "Drake",
+
 			"Sprout Seed Pack",
 			"Sprout Egg",
 			-- "Mandrake",
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			--["Spriggan"] = 8,
+			-- ["Spriggan"] = 8,
 			-- Friend Shop
 			"Skyroot Chest",
 			"Pet Shard GiantBean",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Paradise Egg", 
+			"Rare Summer Egg", 
+			"Common Summer Egg"
 		},
 		Craft = {
+			"Fairy Net",
+			"Enchanted Egg",
+			"Enchanted Seed Pack",
 			"Anti Bee Egg",
 			"Pet Shard GiantBean",
 			"Sprout Egg",
