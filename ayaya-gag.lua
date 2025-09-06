@@ -132,6 +132,7 @@ return {
 			"Common Summer Egg"
 		},
 		Craft = {
+			"Enchanted Chest"
 			"Fairy Net",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
