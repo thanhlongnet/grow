@@ -163,15 +163,15 @@ return {
 	},
 	Eggs = {
 		Place = {
+			"Rare Egg",
+			"Common Summer Egg",
 			"Anti Bee Egg",
 			"Enchanted Egg",
 			"Sprout Egg",
 			--"Legendary Egg",
-			"Rare Egg",
 			--"Rare Summer Egg",
 			"Paradise Egg",
 			"Gourmet Egg",
-			--"Common Summer Egg",
 			"Zen Egg",
 			"Oasis Egg",
 			"Night Egg",
