@@ -194,7 +194,6 @@ return {
 				["Wasp"] = {2,100,1},
 				["Tarantula Hawk"] = {2,100,1},
 				["Bee"] = {2,100,1},
-				["Shroomie"] = {3,100,1},,
 			},
 		},
 		Unfavorite_AllPet = false,
