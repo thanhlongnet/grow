@@ -18,7 +18,7 @@ return {
     OPEN_ALL_SEED_PACK = true,
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Legendary Egg", "Mythical Egg", "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Anti Bee Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Rare Egg", "Legendary Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg",
+    PLANT_EGGS = { "Rare Egg", "Common Summer Egg", "Anti Bee Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Legendary Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Bug Egg", "Paradise Egg",
 	},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
