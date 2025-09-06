@@ -34,7 +34,7 @@ return {
                      "Raiju", ["Spaghetti Sloth"] = 3, "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5, "Bee",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 2,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
-                     ["Starfish"] = 2, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
+                     ["Starfish"] = 1, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 5,
                      ["Toucan"] = 2, ["Capybara"] = 2, ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2},
