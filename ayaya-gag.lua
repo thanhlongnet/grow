@@ -2,7 +2,7 @@ return {
 	Beta_Fix_Data_Sync = true,
 	NoDeletePlayer = false,
 	["Block Pet Gift"] = true,
-	Collect_Cooldown = 120,
+	Collect_Cooldown = 60,
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
@@ -122,6 +122,7 @@ return {
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Paradise Egg",
 		},
 		Craft = {
 			"Anti Bee Egg",
@@ -182,6 +183,7 @@ return {
 		["Auto Feed"] = true,
 		["Start Delete Pet At"] = 55,
 		["Upgrade Slot"] = {
+			["Little Auto Equip"] = true,
 			["Pet"] = {
 				["Starfish"] = {1,75,1,true},
 			},
