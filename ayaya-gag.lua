@@ -206,7 +206,7 @@ return {
 			"Phoenix",
 			["Shroomie"] = 3,
 			"Cockatrice",
-			"Glimmering Sprite",
+			["Glimmering Sprite"] = 8,
 			"Griffin",
 			"Peach Wasp",
 			"Apple Gazelle",
