@@ -1,7 +1,10 @@
 return {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
+    CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    MAX_EVENT_RESTOCK_SHECKLES = 48000001,
+    
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -25,27 +28,27 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Drake", "Phoenix", ["Shroomie"] = 3, "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
-                     "Raiju", ["Spaghetti Sloth"] = 3, "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5, ["Bee"] = 5,
+                     "Raiju", "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5,
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 2,
-                     ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
-                     ["Starfish"] = 1, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
+                     ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
+                     ["Starfish"] = 3, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                      ["Praying Mantis"] = 5,
-                     ["Toucan"] = 2, ["Capybara"] = 2, ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
-					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2},
+                     ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
+					 ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2},
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Tarantula Hawk"] = 5, ["Wasp"] = 5, ["Glimmering Sprite"] = 8, ["Rooster"] = 8 },
+    EQUIP_PETS = { ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Rooster"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "",
