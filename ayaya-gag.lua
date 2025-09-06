@@ -112,7 +112,7 @@ return {
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
-			-- "Drake",
+			"Drake",
 
 			"Sprout Seed Pack",
 			"Sprout Egg",
