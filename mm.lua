@@ -25,23 +25,23 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Cockatrice", "Glimmering Sprite", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
-                     "Raiju", "Spaghetti Sloth", "Chicken Zombie", "Wasp", "Peach Wasp", "Tarantula Hawk", "Bee",
+                     "Raiju", "Spaghetti Sloth", "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5, "Bee",
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 4,
                      ["Sushi Bear"] = 1, ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
                      ["Starfish"] = 2, ["Kodama"] = 2, ["Kappa"] = 1, ["Tanchozuru"] = 2,
-                     "Praying Mantis",
+                     ["Praying Mantis"] = 5,
                      ["Toucan"] = 2, ["Capybara"] = 2, ["Rooster"] = 2, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Bagel Bunny"] = 3, ["Peacock"] = 3, ["Ostrich"] = 3, ["Orange Tabby"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2},
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Wasp"] = 2, ["Glimmering Sprite"] = 1, ["Tarantula Hawk"] = 2, ["Starfish"] = 1, ["Rooster"] = 2, ["Sunny-Side Chicken"] = 1},
+    EQUIP_PETS = { ["Glimmering Sprite"] = 8, ["Rooster"] = 8},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
