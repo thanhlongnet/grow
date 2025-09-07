@@ -47,7 +47,7 @@ return {
     KEEP_PETS_AGE = 90,
 
     EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
