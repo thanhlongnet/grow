@@ -109,6 +109,7 @@ return {
 		},
 		MaxMoney_Restocks = 500_000_000,
 		Shop = { -- un comment to buy
+			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
@@ -132,7 +133,7 @@ return {
 			"Common Summer Egg"
 		},
 		Craft = {
-			"Enchanted Chest"
+			"Enchanted Chest",
 			"Fairy Net",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
