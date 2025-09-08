@@ -274,7 +274,7 @@ return {
 			["Golem"] = 1,
 			["Bagel Bunny"] = 2,
 			["Peacock"] = 3,
-			["Ostrich"] = 2,
+			["Ostrich"] = 4,
 			["Sea Turtle"] = 3,
 			["Scarlet Macaw"] = 2,
 			["Turtle"] = 6,
