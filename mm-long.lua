@@ -45,7 +45,7 @@ return {
 					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3},
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
-	EQUIP_PETS = { ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Starfish"] = 2, ["Rooster"] = 4, ["Luminous Sprite"] = 2},
+	EQUIP_PETS = { ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Starfish"] = 2, ["Rooster"] = 4},
     --EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
