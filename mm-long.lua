@@ -14,7 +14,7 @@ return {
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
-	EXTRA_PET_INVENTORY_SLOTS = 5,
+    EXTRA_PET_INVENTORY_SLOTS = 5,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
     
