@@ -43,7 +43,7 @@ return {
                      ["Praying Mantis"] = 10,
                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3},
-    KEEP_PETS_WEIGHT = 8,
+    KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 	EQUIP_PETS = { ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Starfish"] = 2, ["Rooster"] = 4},
     --EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
