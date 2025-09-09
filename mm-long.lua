@@ -30,7 +30,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, ["Shroomie"] = 1, ["Cardinal"] = 1, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                      "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                      "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
@@ -39,8 +39,8 @@ return {
                      "Raiju", "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5,
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Gorilla Chef"] = 2,
                      ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
-                     ["Starfish"] = 5, ["Kappa"] = 1, ["Tanchozuru"] = 2,
-                     ["Praying Mantis"] = 5,
+                     ["Starfish"] = 5, ["Tanchozuru"] = 3,
+                     ["Praying Mantis"] = 10,
                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
 					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3},
     KEEP_PETS_WEIGHT = 8,
