@@ -36,7 +36,7 @@ return {
                      "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                      "Moth", "Moon Cat",
                      "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
-                     "Raiju", "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5,
+                     "Raiju", "Chicken Zombie", ["Wasp"] = 10, "Peach Wasp", ["Tarantula Hawk"] = 10,
                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2,
                      ["Mochi Mouse"] = 2, "Koi", ["Junkbot"] = 2,
                      ["Starfish"] = 5, ["Tanchozuru"] = 3,
