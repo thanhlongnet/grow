@@ -44,7 +44,7 @@ return {
                      ["Starfish"] = 5, ["Tanchozuru"] = 3,
                      ["Praying Mantis"] = 10,
                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
-					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, "Golden Lab" = 15},
+					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, ["Golden Lab"] = 15},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 	EQUIP_PETS = { ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Golden Lab"] = 6, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
