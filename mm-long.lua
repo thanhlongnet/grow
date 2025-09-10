@@ -2,7 +2,7 @@ return {
     -- Event:
     CRAFT_EVENT = { "Fairy Net", "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
+    BUY_EVENT_SHOP = { "Luminous Sprite", "Drake", "Enchanted Chest" },
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,
     
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
