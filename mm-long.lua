@@ -8,6 +8,8 @@ return {
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
+	GET_HONEY = true,
+    PLACE_ALL_EVENT_STAFF = true,
 	
     -- General:
     AUTO_UPDATE_RESTART = true,
