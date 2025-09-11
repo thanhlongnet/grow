@@ -48,7 +48,7 @@ return {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
 	EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
-    --EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
+    --EQUIP_PETS = { ["Tarantula Hawk"] = 1},
     USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish", "Rooster" },
     REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken". "Starfish", "Rooster" },  -- Unequip from garden
 
