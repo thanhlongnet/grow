@@ -47,10 +47,10 @@ return {
 					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, ["Golden Lab"] = 15, ["Chicken"] = 2},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
-	EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 6, ["Chicken"] = 2, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
+	EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
     --EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken" },
-    REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish" },
+    REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken". "Starfish" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10 
 	-- ["Trading Ticket"] = 100,
