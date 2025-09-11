@@ -44,13 +44,13 @@ return {
                      ["Starfish"] = 5, ["Tanchozuru"] = 3,
                      ["Praying Mantis"] = 10,
                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
-					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, ["Golden Lab"] = 15, ["Chicken"] = 2},
+					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, ["Golden Lab"] = 15, ["Chicken"] = 2, "Capybara"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
-	EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
+	EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4, "Capybara" = 1},
     --EQUIP_PETS = { ["Tarantula Hawk"] = 1},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish", "Rooster" },
-    REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken". "Starfish", "Rooster" },  -- Unequip from garden
+    USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish", "Rooster", "Capybara" },
+    REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken". "Starfish", "Rooster", "Capybara" },  -- Unequip from garden
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10 
 	-- ["Trading Ticket"] = 100,
