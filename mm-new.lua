@@ -6,7 +6,7 @@ return {
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
-    GET_HONEY = true,
+    GET_HONEY = false,
     PLACE_ALL_EVENT_STAFF = true,
     
     -- General:
