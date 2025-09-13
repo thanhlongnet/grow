@@ -1,6 +1,16 @@
 setfpscap(5)
 print('Exec')
 repeat task.wait() until game:IsLoaded()
+pcall(function()
+    for i, v in pairs(workspace:GetDescendants()) do
+        if v:IsA("Part") or v:IsA("MeshPart") then
+            local name = v.Name:lower()
+            if name == "tree" or name == "bush" or name == "grass" or name == "leaves" or name == "rock" then
+                v:Destroy()
+            end
+        end
+    end
+end)
 repeat task.wait() until game:GetService("Players").LocalPlayer
 repeat task.wait() until game:GetService("Players").LocalPlayer.Backpack
 
