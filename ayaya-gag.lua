@@ -229,6 +229,7 @@ return {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
+			"Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider",
 			"Drake",
 			"Phoenix",
 			["Shroomie"] = 3,
