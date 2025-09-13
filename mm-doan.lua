@@ -1,26 +1,34 @@
 return {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Mutation Spray Glimmering", "Enchanted Seed Pack" },
+    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+    
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
-    PLACE_COSMETIC = { "Cooking Kit" },
+    PLACE_COSMETIC = { "Cooking Kit" }
+	GET_HONEY = true,
+    PLACE_ALL_EVENT_STAFF = true,
 	
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
+    EXTRA_PET_INVENTORY_SLOTS = 5,
+    MAX_REBIRTH_SHECKLES = 0,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
-    
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Enchanted Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Rare Egg",
-		-- , "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg"
+
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
+		-- "Legendary Egg",
+		"Rare Egg", "Uncommon Egg"},
+    PLANT_EGGS = { "Fall Egg", "Anti Bee Egg", "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
+		 -- "Legendary Egg",
 	},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "Carrot" },
+    KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
