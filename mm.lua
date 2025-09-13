@@ -18,7 +18,7 @@ return {
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
 
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
 		-- "Legendary Egg",
