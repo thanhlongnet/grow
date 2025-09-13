@@ -28,7 +28,7 @@ return {
          -- "Legendary Egg", "Anti Bee Egg", "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
     },
     
-    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 40, ["Coconut"] = 40, ["Bamboo"] = 40, ["Apple"] = 40, ["Pumpkin"] = 40, ["Watermelon"] = 40, ["Daffodil"] = 40, ["Tomato"] = 40, ["Orange Tulip"] = 40, ["Blueberry"] = 40, ["Strawberry"] = 40, ["Carrot"] = 40 },
     KEEP_SEEDS = {},
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
     
