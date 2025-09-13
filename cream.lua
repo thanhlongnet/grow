@@ -1,3 +1,4 @@
+setfpscap(3)
 getgenv().Config = {
     AUTO_RESTART_WHEN_UPDATE = true,
     AUTO_ACHIEVEMENTS = false,
