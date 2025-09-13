@@ -28,7 +28,7 @@ getgenv().Config = {
                       "Axolotl", "Echo Frog", "Hamster", "Maneki-neko",
                       "Koi",
                       "Starfish", "Tanchozuru",
-                      "Praying Mantis", -- ĐÃ SỬA LỖI TẠI ĐÂY
+                      "Praying Mantis",
                       "Rooster", "Seal", "Chicken",
                       "Peacock", "Ostrich", "Turtle", "Sea Turtle", "Scarlet Macaw", "Sunny-Side Chicken", "Capybara"},
     LOCK_PET_RARITY = {"Divine", "Prismatic"},
