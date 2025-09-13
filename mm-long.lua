@@ -23,8 +23,8 @@ return {
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
 		-- "Legendary Egg",
 		"Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Fall Egg", "Anti Bee Egg", "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
-		 -- "Legendary Egg",
+    PLANT_EGGS = { "Fall Egg", 
+		 -- "Legendary Egg", "Bug Egg", "Enchanted Egg", "Anti Bee Egg", "Rare Egg", "Common Summer Egg",  "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
 	},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
@@ -49,7 +49,8 @@ return {
 					 ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, "Capybara"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
-	EQUIP_PETS = { ["Wasp"] = 2, ["Tarantula Hawk"] = 2, ["Rooster"] = 4},
+	EQUIP_PETS = { ["Rooster"] = 8},
+	--["Wasp"] = 2, ["Tarantula Hawk"] = 2, 
     --EQUIP_PETS = {  ["Starfish"] = 2, ["Luminous Sprite"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Rooster" },  -- Unequip from garden
