@@ -122,7 +122,7 @@ return {
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
-			-- "Drake",
+			"Drake",
 			"Pixie Faern",
 			"Untold Bell",
 			"Luminous Sprite",
