@@ -7,8 +7,8 @@ return {
 	["Auto Rejoin"] = true,
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 300,
-		["Destroy Until"] = 300,
+		["Limit"] = 400,
+		["Destroy Until"] = 400,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -22,14 +22,14 @@ return {
 			"Princess Thorn",
 			-- for the event
 			Bamboo = 4,
-			Coconut = 4,
+			Coconut = 15,
 			Mushroom = 4,
 			Glowthorn = 4,
-			Tomato = 4,
+			Tomato = 15,
 			Pumpkin = 4,
 			Pepper = 4,
-			Cacao = 4,
-			Apple = 4,
+			Cacao = 15,
+			Apple = 15,
 			Romanesco = 4,
 			["Elder Strawberry"] = 4,
 			["Burning Bud"] = 4,
@@ -37,14 +37,14 @@ return {
 			Corn = 4,
 			["Sugar Apple"] = 4,
 			["Ember Lily"] = 4,
-			["Dragon Fruit"] = 4,
-			Sunbulb = 4,
+			["Dragon Fruit"] = 15,
+			Sunbulb = 8,
 			["Orange Tulip"] = 4,
-			Blueberry = 4,
+			Blueberry = 15,
 			Watermelon = 4,
-			Mango = 4,
+			Mango = 15,
 			Cactus = 4,
-			Strawberry = 4,
+			Strawberry = 15,
 			Beanstalk = 4,
 			Lightshoot = 4,
 			Grape = 4,
@@ -81,15 +81,18 @@ return {
 		}
 	},
 	Events = {
+		["Fall Event"] = {
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
+		},
 		["Fairy Event"] = {
 			Minimum_Money = 10_000_000, -- minimum money to start play this event
 			Rewards_Item = { -- top mean select first
+				"Enchanted Seed Pack",
 				"Pet Shard Glimmering",
 				"Enchanted Egg",
 				"Mutation Spray Glimmering",
 				"FairyPoints",
 				"Fairy Targeter",
-				"Enchanted Seed Pack",
 			},
 			Upgrade = {
 				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
@@ -102,18 +105,29 @@ return {
 				Limit = {
 					["Glimmer Multiplier"] = 5, -- max 10
 					["Loose Fairy Spawn Amount"] = 10, -- max 10
-					["Fairy Event Duration"] = 5, -- max 10
+					["Fairy Event Duration"] = 10, -- max 10
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
-			}
+			},
+			
+			Minimum_Fairy_Point_Restock = 10000, -- if fairy point more then this will restock
+			Catch_Fairy_Before_Restock = 51, -- fr it 50 but to be sure i put 51
 		},
-		MaxMoney_Restocks = 500_000_000,
+		MaxMoney_Restocks = 480_000_001,
+		
 		Shop = { -- un comment to buy
+			"Fall Egg",
+
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
-			"Drake",
+			-- "Drake",
+			"Pixie Faern",
+			"Untold Bell",
+			"Luminous Sprite",
+			"Mutation Spray Luminous",
+			"Luminous Wand",
 
 			"Sprout Seed Pack",
 			"Sprout Egg",
@@ -121,7 +135,7 @@ return {
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			-- ["Spriggan"] = 8,
+			--["Spriggan"] = 8,
 			-- Friend Shop
 			"Skyroot Chest",
 			"Pet Shard GiantBean",
@@ -143,6 +157,7 @@ return {
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
+
 
 	Gear = {
 		Buy = {
