@@ -54,7 +54,7 @@ return {
     USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish", "Rooster", "Capybara" },
     REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken", "Starfish", "Rooster", "Capybara" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10 
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10,
 	-- ["Trading Ticket"] = 100,
 	},
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
