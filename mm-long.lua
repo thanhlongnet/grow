@@ -11,7 +11,7 @@ return {
     
     -- General:
     AUTO_UPDATE_RESTART = true,
-    REDEEM_CODES = {"RDCAward"},
+    REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     EXTRA_PET_INVENTORY_SLOTS = 5,
@@ -47,7 +47,7 @@ return {
                       ["Starfish"] = 5, ["Tanchozuru"] = 3,
                       ["Praying Mantis"] = 10,
                       ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
-                     ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
+                      ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8, ["Sunny-Side Chicken"] = 8},
