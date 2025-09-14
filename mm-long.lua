@@ -11,7 +11,7 @@ return {
     
     -- General:
     AUTO_UPDATE_RESTART = true,
-    REDEEM_CODES = {},
+    REDEEM_CODES = {"RDCAward"},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     EXTRA_PET_INVENTORY_SLOTS = 5,
