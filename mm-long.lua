@@ -48,7 +48,7 @@ return {
                       ["Praying Mantis"] = 10,
                       ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
                      ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
-    KEEP_PETS_WEIGHT = 6,
+    KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8, ["Sunny-Side Chicken"] = 8},
     --EQUIP_PETS = {  ["Starfish"] = 2, ["Luminous Sprite"] = 8 },
