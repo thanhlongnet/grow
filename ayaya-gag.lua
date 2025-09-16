@@ -9,7 +9,6 @@ return {
 	["Limit Tree"] = {
 		["Limit"] = 400,
 		["Destroy Until"] = 400,
-
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Bone Blossom",
@@ -48,14 +47,14 @@ return {
 			Beanstalk = 4,
 			Lightshoot = 4,
 			Grape = 4,
-			Daffodil = 4,
+			Daffodil = 4
 		}
 	},
 	Seed = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
 			Custom = { -- any fruit u need to place
-				"Carrot",
+				"Carrot"
 			}
 		},
 		Place = {
@@ -72,27 +71,26 @@ return {
 				"Easter Egg",
 				"Moon Mango",
 				"Bone Blossom",
-				"Fossilight",
+				"Fossilight"
 			}
 		}
 	},
 	["Seed Pack"] = {
-		Locked = {
-		}
+		Locked = {}
 	},
 	Events = {
 		["Fall Event"] = {
-			Minimum_Money = 10_000_000, -- minimum money to start play this event
+			Minimum_Money = 10000000 -- minimum money to start play this event
 		},
 		["Fairy Event"] = {
-			Minimum_Money = 10_000_000, -- minimum money to start play this event
+			Minimum_Money = 10000000, -- minimum money to start play this event
 			Rewards_Item = { -- top mean select first
 				"Enchanted Seed Pack",
 				"Pet Shard Glimmering",
 				"Enchanted Egg",
 				"Mutation Spray Glimmering",
 				"FairyPoints",
-				"Fairy Targeter",
+				"Fairy Targeter"
 			},
 			Upgrade = {
 				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
@@ -100,24 +98,21 @@ return {
 					"Fairy Spawn Amount",
 					"Loose Fairy Spawn Amount",
 					"Glimmer Multiplier",
-					"Fairy Event Duration",
+					"Fairy Event Duration"
 				},
 				Limit = {
 					["Glimmer Multiplier"] = 5, -- max 10
 					["Loose Fairy Spawn Amount"] = 10, -- max 10
 					["Fairy Event Duration"] = 10, -- max 10
-					["Fairy Spawn Amount"] = 9, -- max 9
+					["Fairy Spawn Amount"] = 9 -- max 9
 				}
 			},
-			
 			Minimum_Fairy_Point_Restock = 10000, -- if fairy point more then this will restock
-			Catch_Fairy_Before_Restock = 51, -- fr it 50 but to be sure i put 51
+			Catch_Fairy_Before_Restock = 51 -- fr it 50 but to be sure i put 51
 		},
-		MaxMoney_Restocks = 480_000_001,
-		
+		MaxMoney_Restocks = 480000001,
 		Shop = { -- un comment to buy
 			"Fall Egg",
-
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
@@ -128,7 +123,6 @@ return {
 			"Luminous Sprite",
 			"Mutation Spray Luminous",
 			"Luminous Wand",
-
 			"Sprout Seed Pack",
 			"Sprout Egg",
 			-- "Mandrake",
@@ -138,14 +132,9 @@ return {
 			--["Spriggan"] = 8,
 			-- Friend Shop
 			"Skyroot Chest",
-			"Pet Shard GiantBean",
+			"Pet Shard GiantBean"
 		},
-		["Traveling Shop"] = {
-			"Bee Egg",
-			"Paradise Egg", 
-			"Rare Summer Egg", 
-			"Common Summer Egg"
-		},
+		["Traveling Shop"] = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg" },
 		Craft = {
 			"Enchanted Chest",
 			"Fairy Net",
@@ -153,12 +142,10 @@ return {
 			"Enchanted Seed Pack",
 			"Anti Bee Egg",
 			"Pet Shard GiantBean",
-			"Sprout Egg",
+			"Sprout Egg"
 		},
-		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
+		Start_Do_Honey = 2000000 -- start trade fruit for honey at money
 	},
-
-
 	Gear = {
 		Buy = {
 			"Master Sprinkler",
@@ -168,19 +155,13 @@ return {
 			"Lightning Rod",
 			"Level Up Lollipop",
 			"Medium Treat",
-			"Medium Toy",
+			"Medium Toy"
 		},
-		Lock = {
-			"Master Sprinkler",
-			"Godly Sprinkler",
-			"Advanced Sprinkler",
-			"Basic Sprinkler",
-			"Lightning Rod",
-		},
+		Lock = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Lightning Rod" }
 	},
 	Eggs = {
 		Place = {
-			"Fall Egg",
+			"Fall Egg"
 			--"Anti Bee Egg",
 			--"Rare Egg",
 			--"Common Summer Egg",
@@ -205,7 +186,7 @@ return {
 			"Mythical Egg",
 			"Rare Summer Egg",
 			"Common Summer Egg",
-			"Rare Egg",
+			"Rare Egg"
 		}
 	},
 	Pets = {
@@ -214,23 +195,27 @@ return {
 		["Upgrade Slot"] = {
 			["Little Auto Equip"] = true,
 			["Pet"] = {
-				["Starfish"] = {1,75,1,true},
+				["Starfish"] = { 1, 75, 1, true }
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				-- ["Peach Wasp"] = {1,100,1},
 				--["Glimmering Sprite"] = {3,100},
-				["Rooster"] = {8,100,1},
+				["Rooster"] = { 8, 100, 1 }
 				--["Sunny-Side Chicken"] = {1,100},
 				--["Wasp"] = {1,100},
 				--["Tarantula Hawk"] = {1,100},
-			},
+			}
 		},
 		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
-			"Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider",
+			"Barn Owl",
+			"Swan",
+			"Marmot",
+			"Space Squirrel",
+			"Sugar Glider",
 			"Drake",
 			"Phoenix",
 			["Shroomie"] = 3,
@@ -268,7 +253,7 @@ return {
 			"Pterodactyl",
 			"Chicken Zombie",
 			"Raiju",
-			["Wasp"] =10,
+			["Wasp"] = 10,
 			["Tarantula Hawk"] = 10,
 			"Axolotl",
 			"Echo Frog",
@@ -295,7 +280,7 @@ return {
 			["Sea Turtle"] = 3,
 			["Scarlet Macaw"] = 2,
 			["Turtle"] = 6,
-			["Monkey"] = 6,
+			["Monkey"] = 6
 		},
 		LockPet_Weight = 8,
 		Instant_Sell = {
@@ -334,27 +319,18 @@ return {
 			"Ladybug",
 			"Orange Tabby",
 			"Giant Ant",
-			"Pixie",
-			},
+			"Pixie"
+		}
 	},
 	Webhook = {
 		UrlPet = "",
 		UrlSeed = "xxx",
 		PcName = "LUCKY",
 		Noti = {
-			Seeds = {
-				"Sunflower",
-				"Dragon Pepper",
-				"Elephant Ears",
-			},
-			SeedPack = {
-				"Idk"
-			},
-			Pets = {
-				"Lobster Thermidor",
-				"French Fry Ferret",
-			},
-			Pet_Weight_Noti = false,
+			Seeds = { "Sunflower", "Dragon Pepper", "Elephant Ears" },
+			SeedPack = { "Idk" },
+			Pets = { "Lobster Thermidor", "French Fry Ferret" },
+			Pet_Weight_Noti = false
 		}
-	},
+	}
 }
