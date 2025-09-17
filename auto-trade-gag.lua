@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(3)
 print('Exec')
 repeat task.wait() until game:IsLoaded()
 pcall(function()
