@@ -2,7 +2,7 @@ return {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+    BUY_EVENT_SHOP = {"Fall Egg", "Sugar Glider"},
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -35,7 +35,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Barn Owl", "Swan", ["Marmot"] =5, "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 3, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
@@ -46,8 +46,8 @@ return {
                       ["Mochi Mouse"] = 2, "Koi", ["Junkbot"] = 2,
                       ["Starfish"] = 5, ["Tanchozuru"] = 3,
                       ["Praying Mantis"] = 10,
-                      ["Rooster"] = 8, ["Seal"] = 3,
-                      ["Peacock"] = 3, ["Ostrich"] = 4, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 3, ["Golden Lab"] = 15, ["Chicken"] = 2, "Capybara"},
+                      ["Rooster"] = 16, ["Seal"] = 3, ["Chicken"] = 2,
+                      ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
