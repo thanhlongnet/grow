@@ -23,8 +23,8 @@ return {
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
         -- "Legendary Egg",
-        "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Fall Egg",
+        "Rare Egg", "Uncommon Egg", "Common Egg"},
+    PLANT_EGGS = { "Fall Egg", "Common Egg", "Common Summer Egg",
          -- "Legendary Egg",  "Anti Bee Egg", "Rare Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
     },
     
@@ -42,7 +42,7 @@ return {
                       "Moth", "Moon Cat",
                       "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
                       "Raiju", "Chicken Zombie", "Wasp", "Peach Wasp", "Tarantula Hawk",
-                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2,
+                      "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2, ["Golden Lab"] = 8,
                       ["Mochi Mouse"] = 2, "Koi", ["Junkbot"] = 2,
                       ["Starfish"] = 5, ["Tanchozuru"] = 3,
                       ["Praying Mantis"] = 10,
@@ -50,7 +50,7 @@ return {
                       ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
-    EQUIP_PETS = { ["French Fry Ferret"] = 1 , ["Wasp"] = 1, ["Golden Lab"] = 3, ["Chicken"] = 1, ["Starfish"] = 2, ["Luminous Sprite"] = 1, ["Capybara"] = 1, ["Rooster"] = 4},
+    EQUIP_PETS = { ["Golden Lab"] = 3, ["Rooster"] = 4},
     --EQUIP_PETS = { ["Tarantula Hawk"] = 1},
     USE_PETS_FOR_UPGRADE_SLOT = { "Golden Lab", "Chicken", "Starfish", "Rooster", "Capybara" },
     REMOVE_PET_MAX_UPGRADE = { "Golden Lab", "Chicken", "Starfish", "Rooster", "Capybara" },  -- Unequip from garden
