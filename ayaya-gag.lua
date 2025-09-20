@@ -85,6 +85,7 @@ return {
 		["Fairy Event"] = {
 			Minimum_Money = 10000000, -- minimum money to start play this event
 			Rewards_Item = { -- top mean select first
+				"Red Panda",
 				"Enchanted Seed Pack",
 				"Pet Shard Glimmering",
 				"Enchanted Egg",
@@ -112,6 +113,7 @@ return {
 		},
 		MaxMoney_Restocks = 480000001,
 		Shop = { -- un comment to buy
+			"Red Panda",
 			"Fall Egg",
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
@@ -211,6 +213,7 @@ return {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 75,
 		Locked = {
+			"Red Panda",
 			"Barn Owl",
 			"Swan",
 			"Marmot",
