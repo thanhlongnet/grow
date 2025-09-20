@@ -60,8 +60,8 @@ return {
 
     PET_WEBHOOK_URL = "",
     SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", },
-    NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 5, ["Bear Bee"] = 5, ["Tanchozuru"] = 5 },
+    NOTIFY_PETS = {},
+    NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = false,
