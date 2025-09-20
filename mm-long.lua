@@ -24,7 +24,7 @@ return {
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
         -- "Legendary Egg",
         "Rare Egg"},
-    PLANT_EGGS = { 
+    PLANT_EGGS = { "Fall Egg",
          -- "Legendary Egg", "Anti Bee Egg", "Fall Egg", "Common Summer Egg", "Bug Egg", "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
     },
     
