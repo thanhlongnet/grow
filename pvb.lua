@@ -1,7 +1,7 @@
 local publicConfig = {
     AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 10,
-    LOW_CPU = false,
+    MAX_FPS = 3,
+    LOW_CPU = true,
     MAX_REBIRTH = 2,
     BRAINROT_RARITY_STOP_REBIRTH = {"Secret", "Limited"},
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
