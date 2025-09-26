@@ -5,7 +5,7 @@ local publicConfig = {
     MAX_REBIRTH = 2,
     BRAINROT_RARITY_STOP_REBIRTH = {"Secret", "Limited"},
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
-    FUSE_PLANT = {"Mr Carrot"},
+    FUSE_PLANT = {},
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio"},
     BUY_GEAR_SHOP = {},
