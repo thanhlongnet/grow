@@ -17,7 +17,7 @@ local publicConfig = {
     KEEP_BRAINROT_MONEY_PER_SECOND = math.huge,
     KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
 
-    SELL_BRAINROT_DELAY = 30,
+    SELL_BRAINROT_DELAY = 20,
     SELL_PLANT_DELAY = 20,
 }
 
