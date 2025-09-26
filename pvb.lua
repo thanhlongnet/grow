@@ -3,6 +3,7 @@ local publicConfig = {
     MAX_FPS = 3,
     LOW_CPU = true,
     MAX_REBIRTH = 2,
+    ATTACK_BAT = true,
     BRAINROT_RARITY_STOP_REBIRTH = {"Secret", "Limited"},
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
     FUSE_PLANT = {},
