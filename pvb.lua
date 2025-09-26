@@ -1,7 +1,7 @@
 local publicConfig = {
     AUTO_UPDATE_RESTART = true,
     MAX_FPS = 3,
-    LOW_CPU = true,
+    LOW_CPU = false,
     MAX_REBIRTH = 2,
     BRAINROT_RARITY_STOP_REBIRTH = {"Secret", "Limited"},
 
