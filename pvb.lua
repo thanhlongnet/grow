@@ -8,7 +8,7 @@ local publicConfig = {
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio"},
     BUY_GEAR_SHOP = {},
     KEEP_SEED = {},
-    KEEP_PLANT = {},
+    KEEP_PLANT = {"Mr. Carrot", "Tomatrio"},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT = {"Tralalelo Tralala", "Garamararam", "Los Tralaleritos", "Vacca Saturno Saturnita"},
     KEEP_BRAINROT_WEIGHT = math.huge,
