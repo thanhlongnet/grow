@@ -2,7 +2,7 @@ return {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg"},
-    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I", "Evo Beetroot II", "Evo Blueberry II", "Evo Pumpkin II", "Evo Mushroom II" },
+    BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I"},
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,
     
     MAX_PLANTS = 200,
