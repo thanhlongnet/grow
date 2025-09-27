@@ -163,7 +163,8 @@ return {
 	},
 	Eggs = {
 		Place = {
-			"Fall Egg"
+			"Jungle Egg",
+			-- "Fall Egg"
 			--"Anti Bee Egg",
 			--"Rare Egg",
 			--"Common Summer Egg",
