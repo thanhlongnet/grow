@@ -76,77 +76,34 @@ return {
 		}
 	},
 	["Seed Pack"] = {
-		Locked = {}
+		Locked = {
+			["Enchanted Seed Pack"] = 10,
+		}
 	},
-	Events = {
-		["Fall Event"] = {
-			Minimum_Money = 10000000 -- minimum money to start play this event
-		},
-		["Fairy Event"] = {
-			Minimum_Money = 10000000, -- minimum money to start play this event
-			Rewards_Item = { -- top mean select first
-				"Red Panda",
-				"Enchanted Seed Pack",
-				"Pet Shard Glimmering",
-				"Enchanted Egg",
-				"Mutation Spray Glimmering",
-				"FairyPoints",
-				"Fairy Targeter"
-			},
-			Upgrade = {
-				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
-				Order = { -- top upgrade first, not put mean not upgrade
-					"Fairy Spawn Amount",
-					"Loose Fairy Spawn Amount",
-					"Glimmer Multiplier",
-					"Fairy Event Duration"
-				},
-				Limit = {
-					["Glimmer Multiplier"] = 5, -- max 10
-					["Loose Fairy Spawn Amount"] = 10, -- max 10
-					["Fairy Event Duration"] = 10, -- max 10
-					["Fairy Spawn Amount"] = 9 -- max 9
-				}
-			},
-			Minimum_Fairy_Point_Restock = 10000, -- if fairy point more then this will restock
-			Catch_Fairy_Before_Restock = 51 -- fr it 50 but to be sure i put 51
-		},
-		MaxMoney_Restocks = 480000001,
+Events = {
+		-- MaxMoney_Restocks = 10_000_000,
+		
 		Shop = { -- un comment to buy
-			"Red Panda",
-			"Fall Egg",
-			"Enchanted Chest",
-			"Pet Shard Glimmering",
-			"Enchanted Egg",
-			"Enchanted Seed Pack",
-			"Drake",
-			"Pixie Faern",
-			"Untold Bell",
-			"Luminous Sprite",
-			"Mutation Spray Luminous",
-			"Luminous Wand",
-			"Sprout Seed Pack",
-			"Sprout Egg",
-			-- "Mandrake",
-			"Silver Fertilizer",
-			-- "Canary Melon",
-			-- "Amberheart",
-			--["Spriggan"] = 8,
-			-- Friend Shop
-			"Skyroot Chest",
-			"Pet Shard GiantBean"
+			"Evo Beetroot I",
+			"Evo Blueberry I",
+			"Evo Pumpkin I",
+			"Evo Mushroom I",
 		},
-		["Traveling Shop"] = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg" },
+		["Traveling Shop"] = {
+			"Bee Egg",
+			"Paradise Egg", 
+			"Rare Summer Egg", 
+			"Common Summer Egg"
+		},
 		Craft = {
 			"Enchanted Chest",
-			"Fairy Net",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
 			"Anti Bee Egg",
 			"Pet Shard GiantBean",
-			"Sprout Egg"
+			"Sprout Egg",
 		},
-		Start_Do_Honey = 2000000 -- start trade fruit for honey at money
+		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
 	Gear = {
 		Buy = {
