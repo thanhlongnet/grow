@@ -5,10 +5,13 @@ return {
     BUY_EVENT_SHOP = { "Evo Beetroot I", "Evo Blueberry I", "Evo Pumpkin I", "Evo Mushroom I" },
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,
     
-    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 150,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+    KEEP_SEEDS = { "Bone Blossom" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
+
     PLACE_COSMETIC = { "Cooking Kit" },
-    GET_HONEY = false,
-    PLACE_ALL_EVENT_STAFF = true,
     
     -- General:
     AUTO_UPDATE_RESTART = true,
