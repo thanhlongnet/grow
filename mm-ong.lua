@@ -1,7 +1,7 @@
 return {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Rare Summer Egg", "Common Summer Egg"},
     BUY_EVENT_SHOP = { "Fall Egg", "Red Panda"},
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
