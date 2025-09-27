@@ -121,8 +121,8 @@ Events = {
 	Eggs = {
 		Place = {
 			"Jungle Egg",
-			-- "Fall Egg"
-			--"Anti Bee Egg",
+			"Fall Egg"
+			"Anti Bee Egg",
 			--"Rare Egg",
 			--"Common Summer Egg",
 			--"Enchanted Egg",
