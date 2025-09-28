@@ -37,13 +37,13 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Blue Jay", ["Iguana"] = 8, "Tiger", "Chimpanzee", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 3, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Blue Jay", ["Iguana"] = 8, "Tiger", "Chimpanzee", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 3, "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
                       "Moth", "Moon Cat",
                       "Night Owl", "Blood Owl", "Blood Kiwi", "Cooked Owl",
-                      "Raiju", "Chicken Zombie", ["Wasp"] = 15, "Peach Wasp", ["Tarantula Hawk"] = 15,
+                      "Raiju", "Chicken Zombie", ["Wasp"] = 5, "Peach Wasp", ["Tarantula Hawk"] = 5,
                       "Axolotl", "Echo Frog", "Hamster", "Maneki-neko", ["Squirrel"] = 2,
                       ["Mochi Mouse"] = 2, "Koi", ["Junkbot"] = 2,
                       ["Starfish"] = 5, ["Tanchozuru"] = 3,
