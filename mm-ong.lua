@@ -53,7 +53,6 @@ return {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8,},
-    -- , ["Sunny-Side Chicken"] = 8
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish", "Rooster"},
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish", "Rooster"},  -- Unequip from garden
 
