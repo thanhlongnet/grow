@@ -49,7 +49,7 @@ return {
         ["Starfish"] = 5, ["Tanchozuru"] = 3,
         ["Praying Mantis"] = 10,
         ["Rooster"] = 12, ["Seal"] = 3, ["Chicken"] = 2,
-        ["Peacock"] = 3, ["Ostrich"] = 3, ["Turtle"] = 3, ["Sea Turtle"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
+        ["Peacock"] = 3, ["Ostrich"] = 3, ["Sea Turtle"] = 3, ["Sunny-Side Chicken"] = 8, "Capybara"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8,},
