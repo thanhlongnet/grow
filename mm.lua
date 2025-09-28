@@ -24,12 +24,8 @@ return {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 8 },
 
-    BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg",
-        -- "Legendary Egg",
-        "Rare Egg", "Uncommon Egg"},
-    PLANT_EGGS = { "Jungle Egg", 
-         -- "Rare Egg", "Fall Egg", "Anti Bee Egg", "Bug Egg", "Legendary Egg",  "Common Summer Egg",  "Enchanted Egg", "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Night Egg", "Paradise Egg",
-    },
+    BUY_EGGS = { "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg"},
+    PLANT_EGGS = { "Jungle Egg",},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Corn"] = 50, ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
 
@@ -52,13 +48,10 @@ return {
     KEEP_PETS_WEIGHT = 8,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8},
-    --EQUIP_PETS = { ["Rooster"] = 8, ["Starfish"] = 2, ["Tarantula Hawk"] = 1, ["Wasp"] = 1, ["Luminous Sprite"] = 8 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10,
-    -- ["Trading Ticket"] = 100,
-    },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", ["Harvest Tool"] = 10, ["Trading Ticket"] = 100},
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "",
