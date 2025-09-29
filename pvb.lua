@@ -12,7 +12,6 @@ local publicConfig = {
     BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT = {"Tralalelo Tralala", "Garamararam", "Los Tralaleritos", "Vacca Saturno Saturnita"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 2000,  -- Number
     KEEP_BRAINROT_RARITY = {"Secret", "Limited"},
 
