@@ -37,7 +37,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Chubby Chipmunk", "Chinchilla", "Silver Dragonfly", ["Iguana"] = 5,["Hummingbird"] = 5, ["Tree Frog"] =5, "Tiger", ["Chimpanzee"] = 5, "Red Panda", ["Space Squirrel"] = 1, ["Barn Owl"] = 1, "Swan", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Fortune Squirrel", "Chubby Chipmunk", "Chinchilla", "Silver Dragonfly", ["Iguana"] = 5,["Hummingbird"] = 5, ["Tree Frog"] =5, "Tiger", ["Chimpanzee"] = 5, "Red Panda", ["Space Squirrel"] = 1, ["Barn Owl"] = 1, "Swan", "Phoenix", "Drake", ["Wisp"] = 5, "Luminous Sprite", "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
