@@ -2,7 +2,8 @@ local publicConfig = {
     AUTO_UPDATE_RESTART = true,
     MAX_FPS = 3,
     LOW_CPU = true,
-    MAX_REBIRTH = 3,
+    MAX_REBIRTH = 99,
+    FORCE_REBIRTH_IGNORE_KEEP_BRAINROT = true,
     FROST_GRENADE_TARGET_MAX_HP = 100000,  -- Use frost grenade 100k+ hp brainrot
 
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
