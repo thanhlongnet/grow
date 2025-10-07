@@ -14,7 +14,7 @@ local publicConfig = {
 
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT = {"Crazylone Pizaione"},
+    KEEP_BRAINROT = {"Crazylone Pizaione", "Los Sekolitos", "Los Mr Carrotitos", "Garamararam"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 20000, -- Number
     KEEP_BRAINROT_RARITY = {},
 
