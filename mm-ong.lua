@@ -20,6 +20,7 @@ return {
     MAX_REBIRTH_SHECKLES = 0,
     ADD_FRIEND = false,
     OPEN_ALL_SEED_PACK = true,
+    COLLECT_FRUIT_PER_SECOND = 3,
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
 
