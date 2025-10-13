@@ -43,7 +43,7 @@ return {
                       ["Praying Mantis"] = 5,
                       ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
                      ["Peacock"] = 3, ["Ostrich"] = 4, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi","Silver Dragonfly"},
-    KEEP_PETS_WEIGHT = 8,
+    KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8},
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
