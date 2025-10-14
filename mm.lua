@@ -41,7 +41,7 @@ return {
                       ["Mochi Mouse"] = 1, "Koi", ["Junkbot"] = 1,
                       ["Starfish"] = 5, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                       ["Praying Mantis"] = 5,
-                      ["Rooster"] = 8, ["Seal"] = 3, ["Chicken"] = 2,
+                      ["Rooster"] = 10, ["Seal"] = 3, ["Chicken"] = 2,
                      ["Peacock"] = 3, ["Ostrich"] = 4, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi","Silver Dragonfly"},
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
