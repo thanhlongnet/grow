@@ -1,7 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    
+    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -45,6 +45,7 @@ return {
     KEEP_PETS_WEIGHT = 6,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { ["Rooster"] = 8},
+    LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
     USE_PETS_FOR_UPGRADE_SLOT = { "Capybara", "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
