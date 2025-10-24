@@ -1,7 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg", ["Ghost Bear"] = 8, "Reaper" },
+    BUY_EVENT_SHOP = { "Spooky Egg"},
     MAX_PLANTS = 100,
     DESTROY_UNTIL_MIN_PLANTS = 80,
     KEEP_SEEDS = { "Bone Blossom" },
@@ -29,7 +29,7 @@ return {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Lich", "Hex Serpent", "Headless Horseman", ["Bat"]=5,["Bone Dog"]=5,["Black Cat"] =5, ["Spider"] =5,"Reaper","Fortune Squirrel", "Chubby Chipmunk", "Chinchilla", "Tiger", "Chimpanzee", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
+    KEEP_PETS = { "Hex Serpent", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chubby Chipmunk", "Chinchilla", "Tiger",  "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Phoenix", "Drake", ["Wisp"] = 5, ["Luminous Sprite"] = 8, "Cockatrice", "Gnome", "Griffin", "Apple Gazelle", "Green Bean", "Lemon Lion", "Golden Goose", "Kitsune", "Corrupted Kitsune", "French Fry Ferret", "Lobster Thermidor",
                       "T-Rex", "Spinosaurus", "Fennec Fox", "Mimic Octopus", "Disco Bee",
                       "Butterfly", "Raccoon", "Queen Bee", "Dragonfly", "Red Fox",
                       "Ankylosaurus", "Dilophosaurus", "Brontosaurus", "Hyacinth Macaw",
@@ -41,8 +41,8 @@ return {
                       ["Starfish"] = 5, ["Kappa"] = 1, ["Tanchozuru"] = 2,
                       ["Praying Mantis"] = 5,
                       ["Rooster"] = 10, ["Seal"] = 3, ["Chicken"] = 2,
-                     ["Peacock"] = 3, ["Ostrich"] = 4, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi","Silver Dragonfly"},
-    KEEP_PETS_WEIGHT = 6,
+                     ["Peacock"] = 3, ["Ostrich"] = 4, ["Sea Turtle"] = 3, ["Scarlet Macaw"] = 3, ["Sunny-Side Chicken"] = 2, "Capybara", "Mizuchi",},
+    KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
     EQUIP_PETS = { {"Rooster", 8, 1},},
     LEVELUP_LOLLIPOP_MIN_LEVEL = 90,
