@@ -1,7 +1,7 @@
 return {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Spooky Egg"},
+    BUY_EVENT_SHOP = { "Spooky Egg", "Spooky Chest" },
     MAX_PLANTS = 180,
     DESTROY_UNTIL_MIN_PLANTS = 150,
     KEEP_SEEDS = { "Bone Blossom" },
