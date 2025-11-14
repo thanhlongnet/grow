@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(30)
 print('Exec')
 
 repeat task.wait() until game:IsLoaded()
